@@ -1,7 +1,7 @@
 	function getHouses() {
 	  var houses = new Array();
-	  houses.push(new House(20, 47.54090800387914, 18.718159748012023));
-	  houses.push(new House(39, 47.54195800387914, 18.718559748012023));
+	  houses.push(new House(20, 47.54090800387914, 18.718159748012023, 47.54122800387914, 18.718359748012023));
+	  houses.push(new House(39, 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023));
 	  return houses;
 	}
 
@@ -16,6 +16,17 @@
             alt: altText,
             interactive: true
         }).addTo(map);
+	}
+
+	function addHouseNumberAsMarkerToMap(map, house) {
+		var houseNumberIcon = L.icon({
+			iconUrl: 'numbers/' + house.number +'.svg',
+			iconSize:     [100, 40],
+			iconAnchor:   [50, 40],
+			popupAnchor:  [0, -12]
+		})
+		L.marker([house.numberLatitude, house.numberLongitude],
+				{icon: houseNumberIcon}).addTo(map).bindPopup(`House`)
 	}
 
 	function addStreet(map) {
@@ -34,9 +45,11 @@
 	}
 
 	class House {
-	  constructor(number, latitude, longitude) {
+	  constructor(number, latitude, longitude, numberLatitude, numberLongitude) {
 	    this.number = number;
 	    this.latitude = latitude;
 	    this.longitude = longitude;
+	    this.numberLatitude = numberLatitude;
+	    this.numberLongitude = numberLongitude;
 	  }
 	}

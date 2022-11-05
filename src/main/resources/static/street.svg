@@ -10,4 +10,6 @@
 		 L 1799 501 A 20 20 1 0 0 1790 474 L 1479 283 A 80 80 0 0 0 1370 300 L 866 1212L 702 1502 L 535 1786" stroke-width="1" stroke="#666666" fill="#EECEA7"/>
     <path d="M 461 1829 L 407 1888 A 50 36 150 1 1 375 1821 A 70 30 1 0 1 461 1829" stroke-width="1" stroke="#666666" fill="lightgreen"/>
 
+    <path d="M 1073 837 A 20 20 1 0 1 1095 830 L 1104 814 A 20 20 1 0 1 1100 789" stroke-width="1" stroke="#666666" fill="#EECEA7"/>
+
 </svg>

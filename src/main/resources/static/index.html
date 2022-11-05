@@ -40,7 +40,10 @@
     map.setZoom(18);
     addStreet(map);
     var houses = getHouses();
-    houses.forEach((house) => addHouseToMap(map, house));
+    houses.forEach((house) => {
+      addHouseToMap(map, house);
+      addHouseNumberAsMarkerToMap(map, house);
+      });
 /*]]>*/
 </script>
 </body>

@@ -1,6 +1,6 @@
-= Színek
+# Színek
 
-== Ház
+## Ház
 
 Vonalak: 765641
 
@@ -14,4 +14,16 @@ Ablaküveg: B8D1E6
 Barna ajtó: B97A57
 Fehér ajtó: E0E0E0
 
+## Utca
+
 Utca: EECEA7
+
+## Cimkék
+
+kék: 2EADD7
+
+pink: DC4E8F
+
+narancs: E5782F
+
+zöld: 75B943
