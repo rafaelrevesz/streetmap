@@ -6,6 +6,8 @@ Vonalak: 765641
 
 Világosabb tető: D87254
 Sötétebb tető: DA5E53
+Havas tető: white
+Havas tetővonal: 99D9EA
 
 Vajszínű fal: EAD7AF
 
