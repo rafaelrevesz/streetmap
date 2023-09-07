@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220.000000pt" height="120.000000pt" viewBox="0 0 220.000000 120.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 75 45 L 19 58 L 36 79 L 74 70" stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+    <line x1="74" y1="70" x2="58" y2="50" stroke-width="3" stroke="#765641"/>
+
+    <path d="M 185 97 L 145 105 L 154 115 L 208 103 L 184 85" stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+
+
+    <path d="M 74 38 L 74 71 L 100 99 L 100 65" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 100 65 L 100 99 L 122 94 L 122 64" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 122 64 L 122 94 L 134 108 L 134 76" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 134 76 L 134 108 L 184 98 L 184 69" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 196 91 L 196 105 L 208 103 L 208 89 L 203 85 L 196 91" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+
+    <path d="M 79 51 L 79 73 L 84 79 L 84 57 L 79 51" stroke-width="3" stroke="#765641" fill="#E0E0E0"/>
+    <path d="M 89 66 L 89 74 L 95 80 L 95 72 L 89 66" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 126 76 L 126 91 L 130 95 L 130 80 L 126 76" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 145 82 L 145 105 L 167 100 L 167 77 L 145 82" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+
+    <line x1="58" y1="42" x2="58" y2="50" stroke-width="3" stroke="#765641"/>
+    <line x1="19" y1="32" x2="19" y2="58" stroke-width="3" stroke="#765641"/>
+    <line x1="36" y1="47" x2="36" y2="78" stroke-width="3" stroke="#765641"/>
+
+    <line x1="182" y1="83" x2="182" y2="108" stroke-width="3" stroke="#765641"/>
+    <line x1="196" y1="81" x2="196" y2="105" stroke-width="3" stroke="#765641"/>
+    <line x1="208" y1="78" x2="208" y2="103" stroke-width="3" stroke="#765641"/>
+
+
+    <path d="M 174 75 L 183 83 L 211 78 L 179 52 L 171 54 L 185 72 L 174 75" stroke-width="3" stroke="#765641"
+          fill="#DA5E53"/>
+    <path d="M 17 28 L 37 23 L 32 48 L 17 28" stroke-width="3" stroke="#765641" fill="#DA5E53"/>
+    <path d="M 37 23 L 32 48 L 74 39 L 81 14 L 37 23" stroke-width="3" stroke="#765641" fill="#D87254"/>
+    <path d="M 81 14 L 74 39 L 102 69 L 130 5 L 81 14" stroke-width="3" stroke="#765641" fill="#DA5E53"/>
+    <path d="M 130 5 L 102 69 L 122 64 L 140 26 L 153 36 L 171 54 L 188 50 L 130 5" stroke-width="3" stroke="#765641"
+          fill="#D87254"/>
+    <path d="M 140 26 L 122 64 L 135 77 L 153 36 L 140 26" stroke-width="3" stroke="#765641" fill="#D87254"/>
+    <path d="M 135 77 L 183 68 L 153 36 L 135 77" stroke-width="3" stroke="#765641" fill="#DA5E53"/>
+
+</svg>

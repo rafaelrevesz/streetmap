@@ -8,13 +8,17 @@ Világosabb tető: D87254
 Sötétebb tető: DA5E53
 Havas tető: white
 Havas tetővonal: 99D9EA
+Szürke tető: 7F7F7F
 
 Vajszínű fal: EAD7AF
+Szürke fal: C3C3C3
 
 Ablaküveg: B8D1E6
 
 Barna ajtó: B97A57
 Fehér ajtó: E0E0E0
+
+Terasz padló: B97A54
 
 ## Utca
 
