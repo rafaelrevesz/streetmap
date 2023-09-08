@@ -1,20 +1,19 @@
 	function getHouses() {
 	  var houses = new Array();
-	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004));
-	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042));
-	  houses.push(new House("30", 47.54026800387914, 18.71763, 47.54055, 18.71793, 0.0004, 0.0004));
-	  houses.push(new House("32", 47.54014800387914, 18.71752, 47.54041, 18.7177, 0.0004, 0.0004));
-	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004));
-
-	  houses.push(new House("45", 47.54163800387914, 18.71825, 47.54192, 18.71839, 0.0004, 0.0004));
-
-	  houses.push(new House("67", 47.54010800387914, 18.71692, 47.54044, 18.71715, 0.00045, 0.00045));
-	  houses.push(new House("75", 47.539505800387914, 18.716469748012023, 47.539815800387914, 18.716629748012023, 0.0004, 0.0004));
-	  houses.push(new House("79", 47.539325800387914, 18.716369748012023, 47.539535800387914, 18.716499748012023, 0.0003, 0.0003));
-	  houses.push(new House("81", 47.539167800387914, 18.716089748012023, 47.539415800387914, 18.716279748012023, 0.00035, 0.00035));
-	  houses.push(new House("83", 47.539105800387914, 18.715669748012023, 47.539375800387914, 18.715789748012023, 0.0004, 0.0004));
-	  houses.push(new House("85", 47.538905800387914, 18.715579748012023, 47.539230800387914, 18.715679748012023, 0.0004, 0.0004));
-	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004));
+	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004, null));
+	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, null));
+	  houses.push(new House("30", 47.54026800387914, 18.71763, 47.54055, 18.71793, 0.0004, 0.0004, null));
+	  houses.push(new House("32", 47.54014800387914, 18.71752, 47.54041, 18.7177, 0.0004, 0.0004, null));
+	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, null));
+	  houses.push(new House("45", 47.54163800387914, 18.71825, 47.54192, 18.71839, 0.0004, 0.0004, null));
+	  houses.push(new House("61", 47.54054000387914, 18.71728, 47.54084, 18.71748, 0.0004, 0.0004, 'V&eacute;rfarkas'));
+	  houses.push(new House("67", 47.54010800387914, 18.71692, 47.54044, 18.71715, 0.00045, 0.00045, null));
+	  houses.push(new House("75", 47.539505800387914, 18.716469748012023, 47.539815800387914, 18.716629748012023, 0.0004, 0.0004, null));
+	  houses.push(new House("79", 47.539325800387914, 18.716369748012023, 47.539535800387914, 18.716499748012023, 0.0003, 0.0003, null));
+	  houses.push(new House("81", 47.539167800387914, 18.716089748012023, 47.539415800387914, 18.716279748012023, 0.00035, 0.00035, null));
+	  houses.push(new House("83", 47.539105800387914, 18.715669748012023, 47.539375800387914, 18.715789748012023, 0.0004, 0.0004, null));
+	  houses.push(new House("85", 47.538905800387914, 18.715579748012023, 47.539230800387914, 18.715679748012023, 0.0004, 0.0004, null));
+	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, null));
 	  return houses;
 	}
 
@@ -51,8 +50,13 @@
 			iconAnchor:   [50, 40],
 			popupAnchor:  [0, -12]
 		})
+		var popupText = `Nyarfas u. ` + house.number;
+		if (house.info != null) {
+		  popupText = house.info;
+		}
 		L.marker([house.numberLatitude, house.numberLongitude],
-				{icon: houseNumberIcon}).addTo(map).bindPopup(`Nyarfas u. ` + house.number)
+				{icon: houseNumberIcon}).addTo(map).bindPopup(popupText)
+				// popup szín csere: https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
 	}
 
 	function addStreet(map) {
@@ -71,7 +75,7 @@
 	}
 
 	class House {
-	  constructor(number, latitude, longitude, numberLatitude, numberLongitude, width, height) {
+	  constructor(number, latitude, longitude, numberLatitude, numberLongitude, width, height, info) {
 	    this.number = number;
 	    this.latitude = latitude;
 	    this.longitude = longitude;
@@ -79,6 +83,7 @@
 	    this.numberLongitude = numberLongitude;
 	    this.width = width;
 	    this.height = height;
+	    this.info = info;
 	  }
 	}
 
