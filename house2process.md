@@ -58,9 +58,9 @@
 | * | 55       | -            | Ildikó volt háza     |
 |   | 57       | -            | Zsuzsi               |
 |   | 59       | photo        | lakókocsisok         |
-| * | 61       | paint        | Ciráki               |
+|   | 61       | map          | Ciráki               |
 |   | 63       | -            | (üres)               |
-| * | 65       | paint        | műkörmös             |
+|   | 65       | map          | műkörmös             |
 |   | 67       | map          | Lajkóék              |
 |   | 69       | -            | (üres)               |
 |   | 71       | -            | (üres)               |
