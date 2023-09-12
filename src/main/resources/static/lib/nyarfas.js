@@ -1,27 +1,36 @@
 	function getHouses() {
 	  var houses = new Array();
+	  houses.push(new House("2/c", 47.540820800387914, 18.721879748012023, 47.541085800387914, 18.722079748012023, 0.00035, 0.00035, null));
+
+	  houses.push(new House("2/d/a", 47.540965800387914, 18.721579748012023, 47.541225800387914, 18.721779748012023, 0.00035, 0.00035, null));
+	  houses.push(new House("2/d/b", 47.540820800387914, 18.721329748012023, 47.541080800387914, 18.721479748012023, 0.00035, 0.00035, null));
+	  houses.push(new House("2/e/1", 47.541095800387914, 18.721279748012023, 47.541365800387914, 18.721479748012023, 0.00036, 0.00036, null));
+	  houses.push(new House("2/e/2", 47.540950800387914, 18.721029748012023, 47.541220800387914, 18.721179748012023, 0.00035, 0.00035, null));
+	  houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 47.541495800387914, 18.721179748012023, 0.00036, 0.00036, null));
+	  houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 47.541350800387914, 18.720879748012023, 0.00036, 0.00036, null));
+	  houses.push(new House("2/g/1", 47.541355800387914, 18.720679748012023, 47.541625800387914, 18.720879748012023, 0.00036, 0.00036, null));
+	  houses.push(new House("2/g/2", 47.541210800387914, 18.720429748012023, 47.541480800387914, 18.720579748012023, 0.00036, 0.00036, null));
+	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, null));
 	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004, null));
-	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, null));
+	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Borulj R&aacute;m-szesz!'));
+	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null));
 	  houses.push(new House("30", 47.54026800387914, 18.71763, 47.54055, 18.71793, 0.0004, 0.0004, null));
 	  houses.push(new House("32", 47.54014800387914, 18.71752, 47.54041, 18.7177, 0.0004, 0.0004, null));
 	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, null));
 	  houses.push(new House("45", 47.54163800387914, 18.71825, 47.54192, 18.71839, 0.0004, 0.0004, null));
 	  houses.push(new House("61", 47.54054000387914, 18.71728, 47.54084, 18.71748, 0.0004, 0.0004, null));
-
 	  houses.push(new House("65", 47.54030000387914, 18.71715, 47.54053, 18.7173, 0.00033, 0.00033, null));
-
 	  houses.push(new House("67", 47.54010800387914, 18.71692, 47.54044, 18.71715, 0.00045, 0.00045, null));
 	  houses.push(new House("75", 47.539505800387914, 18.716469748012023, 47.539815800387914, 18.716629748012023, 0.0004, 0.0004, null));
 	  houses.push(new House("79", 47.539325800387914, 18.716369748012023, 47.539535800387914, 18.716499748012023, 0.0003, 0.0003, null));
 	  houses.push(new House("81", 47.539167800387914, 18.716089748012023, 47.539415800387914, 18.716279748012023, 0.00035, 0.00035, null));
 	  houses.push(new House("83", 47.539105800387914, 18.715669748012023, 47.539375800387914, 18.715789748012023, 0.0004, 0.0004, null));
 	  houses.push(new House("85", 47.538905800387914, 18.715579748012023, 47.539230800387914, 18.715679748012023, 0.0004, 0.0004, null));
-	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, null));
 	  return houses;
 	}
 
 	function addHouseToMap(map, house) {
-        var imageUrl = 'houses/' + house.number.replace("/", "_") + '.svg';
+        var imageUrl = 'houses/' + house.number.replaceAll("/", "_") + '.svg';
         var altText = house.number;
         var latLngBounds = L.latLngBounds([[house.latitude, house.longitude], [house.latitude + house.width, house.longitude + house.height]]);
 
@@ -34,7 +43,7 @@
 	}
 
 	function addSeasonToMap(map, house) {
-	        var imageUrl = 'season/' + house.number.replace("/", "_") + '.svg';
+	        var imageUrl = 'season/' + house.number.replaceAll("/", "_") + '.svg';
             var altText = '20';
             var latLngBounds = L.latLngBounds([[house.latitude, house.longitude], [house.latitude + 0.0004, house.longitude + 0.0004]]);
 
@@ -48,7 +57,7 @@
 
 	function addHouseNumberAsMarkerToMap(map, house) {
 		var houseNumberIcon = L.icon({
-			iconUrl: 'numbers/' + house.number.replace("/", "_") +'.svg',
+			iconUrl: 'numbers/' + house.number.replaceAll("/", "_") +'.svg',
 			iconSize:     [100, 40],
 			iconAnchor:   [50, 40],
 			popupAnchor:  [0, -12]

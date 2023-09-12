@@ -2,16 +2,20 @@
 |   | Nr       | State        | Owner                |
 |===|==========|==============|======================|
 | * | 2c       | paint        | Rácz Szilárd         |
-| * | 2d/1     | paint        |                      |
-| * | 2d/2     | paint        |                      |
-| * | 2d/3     | paint        |                      |
-| * | 2d/4     | paint        |                      |
+|   | 2/d/a    | map          |                      |
+|   | 2/d/b    | map          |                      |
+|   | 2/e/1    | map          |                      |
+|   | 2/e/2    | map          |                      |
+|   | 2/f/1    | map          |                      |
+|   | 2/f/2    | map          |                      |
+|   | 2/g/1    | map          |                      |
+|   | 2/g/2    | map          |                      |
 |   | 592/18   | map          | Dia                  |
-|   | ???/1    | -            | új lakópark          |
-|   | ???/2    | -            | új lakópark          |
-|   | ???/3    | -            | új lakópark          |
-|   | ???/4    | -            | új lakópark          |
-|   | ???/5    | -            | új lakópark          |
+|   | ???/1    | paint        | új lakópark          |
+|   | ???/2    | paint        | új lakópark          |
+|   | ???/3    | paint        | új lakópark          |
+|   | ???/4    | paint        | új lakópark          |
+|   | ???/5    | paint        | új lakópark          |
 |   | 4        | map          | Ákos                 |
 |   | 6        | -            | (üres)               |
 |   | 8        | -            | magtár               |
