@@ -17,3 +17,29 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.register('prepare') {
+    dependsOn("packageDistribution")
+}
+
+tasks.register('prepareStatic', Copy) {
+    dependsOn("build")
+    from layout.buildDirectory.dir("resources/main/static")
+    include "**"
+    into layout.buildDirectory.dir("web/streetmap")
+}
+
+tasks.register('prepareDocker', Copy) {
+    dependsOn("build")
+    from layout.projectDirectory.file("docker-compose.yml")
+    into layout.buildDirectory.dir("web")
+}
+
+tasks.register('packageDistribution', Zip) {
+    dependsOn("prepareStatic", "prepareDocker")
+    archiveFileName = "streetmap.zip"
+    destinationDirectory = layout.buildDirectory.dir('packages')
+
+    from layout.buildDirectory.dir("web")
+}
+

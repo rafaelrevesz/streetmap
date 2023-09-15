@@ -1,7 +1,7 @@
 |===|==========|==============|======================|
 |   | Nr       | State        | Owner                |
 |===|==========|==============|======================|
-| * | 2c       | paint        | Rácz Szilárd         |
+|   | 2c       | map          | Rácz Szilárd         |
 |   | 2/d/a    | map          |                      |
 |   | 2/d/b    | map          |                      |
 |   | 2/e/1    | map          |                      |
@@ -11,26 +11,25 @@
 |   | 2/g/1    | map          |                      |
 |   | 2/g/2    | map          |                      |
 |   | 592/18   | map          | Dia                  |
-|   | ???/1    | paint        | új lakópark          |
-|   | ???/2    | paint        | új lakópark          |
-|   | ???/3    | paint        | új lakópark          |
-|   | ???/4    | paint        | új lakópark          |
-|   | ???/5    | paint        | új lakópark          |
+|   | 4/a/1    | map          | új lakópark          |
+|   | 4/a/2    | map          | új lakópark          |
+|   | 4/a/3    | map          | új lakópark          |
+|   | 4/a/4    | map          | új lakópark          |
+|   | 4/a/5    | map          | új lakópark          |
 |   | 4        | map          | Ákos                 |
 |   | 6        | -            | (üres)               |
 |   | 8        | -            | magtár               |
-| * | 4a       | paint        |                      |
 | * | 9a       | paint        |                      |
 | * | 9b       | paint        |                      |
 | * | 9c       | paint        |                      |
-| * | 11a      | paint        |                      |
-| * | 11b      | paint        |                      |
+|   | 11a      | map          |                      |
+|   | 11b      | map          |                      |
 |   | 10       | -            | (üres)               |
 | * | 12       | -            | Karcsi               |
 | * | 14       | paint        | Laci-Zsuzsi          |
 |   | 20       | map          | Mi                   |
 |   | 22       | photo        | Niki                 |
-| * | 24       | paint        | Márti                |
+|   | 24       | map          | Márti                |
 | * | 25       | paint        | Farkasék             |
 |   | 26       | -            | Zsolti               |
 |   | 28       | -            | (üres)               |

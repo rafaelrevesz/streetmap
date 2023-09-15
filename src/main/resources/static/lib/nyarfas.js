@@ -16,7 +16,11 @@
 	  houses.push(new House("4/a/3", 47.54160800387914, 18.719359748012023, 47.54187, 18.7196, 0.00035, 0.00035, null));
 	  houses.push(new House("4/a/4", 47.54145800387914, 18.719709748012023, 47.54172, 18.7200, 0.00035, 0.00035, null));
 	  houses.push(new House("4/a/5", 47.54140800387914, 18.719209748012023, 47.54167, 18.7195, 0.00035, 0.00035, null));
-	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Borulj R&aacute;m-szesz!'));
+
+	  houses.push(new House("11/a", 47.541174, 18.721909, 47.541453, 18.722114, 0.00035, 0.00035, null));
+	  houses.push(new House("11/b", 47.541323, 18.722134, 47.541603, 18.722344, 0.00035, 0.00035, null));
+
+	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Kahmunrah f&aacute;ra&oacute; kript&aacute;ja!'));
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null));
 	  houses.push(new House("30", 47.54026800387914, 18.71763, 47.54055, 18.71793, 0.0004, 0.0004, null));
 	  houses.push(new House("32", 47.54014800387914, 18.71752, 47.54041, 18.7177, 0.0004, 0.0004, null));
@@ -103,6 +107,11 @@
 	  }
 	}
 
+	function addPlantsToMapBeforeHouses(map) {
+        addPlantToMap(map, 47.542000, 18.719799, 0.00015, 0.00015, "tree_1"); // 4/a: fa
+        addPlantToMap(map, 47.541847, 18.720101, 0.00015, 0.00015, "tree_1"); // 4/a: fa
+	}
+
 	function addPlantsToMap(map) {
         addPlantToMap(map, 47.54207, 18.71916, 0.00007, 0.00016, "bush_2"); // 4: ház melletti bokor
         addPlantToMap(map, 47.54205, 18.71919, 0.00007, 0.00016, "bush_2"); // 4: ház melletti bokor
@@ -117,6 +126,9 @@
         addPlantToMap(map, 47.54115, 18.71825, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.5411, 18.7182, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.54105, 18.71815, 0.00010, 0.00010, "tree_1"); // 20: fa
+        addPlantToMap(map, 47.541404, 18.721559, 0.00010, 0.00010, "tree_1"); // 11 után: fa
+        addPlantToMap(map, 47.541354, 18.721659, 0.00010, 0.00010, "tree_1"); // 11 után: fa
+        addPlantToMap(map, 47.541304, 18.721759, 0.00010, 0.00010, "tree_1"); // 11 után: fa
 	}
 
     function addPlantToMap(map, latitude, longitude, width, height, plantImage) {

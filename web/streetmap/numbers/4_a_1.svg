@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="50.000000pt" height="40.000000pt" viewBox="0 0 50.000000 40.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <rect x="0" y="0" width="50" height="30" stroke-width="0" fill="#2EADD7" rx="3" ry="3"/>
+    <text x="5" y="21" fill="white" stroke="white" font-size="12" font-family="Calibri" font-size-adjust="1">4/a/1</text>
+    <path d="M 20 30 l 5 10 l 5 -10" fill="#2EADD7" stroke-width="0" stroke="none"/>
+</svg>

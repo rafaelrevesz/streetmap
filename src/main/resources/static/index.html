@@ -1,9 +1,20 @@
 <html>
+
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="lib/leaflet/leaflet.css" type="text/css">
 
   <style>
-    #map { height: 100%; }
+  body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #header_place {height: 70px; width: 100%; background-color: white;}
+  #header {height: 70px; width: 100%; background-color: white; position: fixed; z-index: 1;}
+  #header img {height: 65px; float: left;}
+  #title {padding-top: 20px; background-color: white; font-size: 20px; font-family: Calibri, Arial; color: #202020; vertical-align: center;}
+  #footer {height: 20px; background-color: #202020; color: #707070; font-family: Arial; font-size: 14px; padding: 10px; }
+    #map { height: 100%; z-index: 0;}
     .leaflet-popup-content-wrapper, .leaflet-popup-tip {
       background-color: #2EADD7;
       border: 1px #000;
@@ -17,8 +28,10 @@
   <script src="lib/nyarfas.js"></script>
 </head>
 <body>
-<div><image src="images/happy_halloween.png" width="100%"></div>
+<div id="header"><img src="images/happy_halloween.png"><div id="title"> a Ny&aacute;rf&aacute;s utc&aacute;ban...</div></div>
+<div id="header_place"></div>
 <div id="map" class="map-container"></div>
+<div id="footer">CeladonSEA, 2023</div>
 
 <script th:inline="javascript">
 /*<![CDATA[*/
@@ -47,6 +60,7 @@
     map.setZoom(18);
     addStreet(map);
     var houses = getHouses();
+    addPlantsToMapBeforeHouses(map);
     houses.forEach((house) => {
       addHouseToMap(map, house);
       //addSeasonToMap(map, house);
