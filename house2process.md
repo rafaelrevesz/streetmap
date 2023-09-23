@@ -19,7 +19,7 @@
 |   | 4        | map          | Ákos                 |
 |   | 6        | -            | (üres)               |
 |   | 8        | -            | magtár               |
-| * | 9a       | paint        |                      |
+|   | 9a       | map          |                      |
 | * | 9b       | paint        |                      |
 | * | 9c       | paint        |                      |
 |   | 11a      | map          |                      |
@@ -30,7 +30,7 @@
 |   | 20       | map          | Mi                   |
 |   | 22       | photo        | Niki                 |
 |   | 24       | map          | Márti                |
-| * | 25       | paint        | Farkasék             |
+|   | 25       | map          | Farkasék             |
 |   | 26       | -            | Zsolti               |
 |   | 28       | -            | (üres)               |
 |   | 29       | photo        | tornyos ház          |

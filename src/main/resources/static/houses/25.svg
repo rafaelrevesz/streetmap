@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="212.000000pt" height="191.000000pt" viewBox="0 0 212.000000 191.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 105 17 L 105 46 L 100 53 L 92 43 L 105 17
+            " stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 101 47 L 101 76 L 91 95 L 91 65 L 101 47
+            " stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 91 95 L 91 65 L 79 62 L 79 92 L 91 95
+            " stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 79 85 L 79 64 L 66 62 L 67 83 L 79 85
+            " stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+    <path d="M 50 92 L 50 114 L 67 83 L 67 62 L 50 92
+            " stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+    <path d="M 8 83 L 8 113 L 60 124 L 60 115 L 50 114 L 50 92 L 8 83
+            " stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+    <path d="M 60 124 L 60 115 L 79 86 L 79 93 L 60 124
+            " stroke-width="3" stroke="#765641" fill="#C3C3C3"/>
+    <path d="M 78 85 L 69 84 L 50 114 L 59 115 L 78 85
+            " stroke-width="3" stroke="#765641" fill="#B97A54"/>
+
+    <path d="M 14 91 L 14 104 L 24 106 L 24 93 L 14 91
+            " stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 31 94 L 31 107 L 43 111 L 43 98 L 31 94
+            " stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 94 66 L 94 78 L 100 70 L 100 59 L 94 66
+            " stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+
+    <path d="M 108 14 L 77 8 L 39 56 L 61 94 L 108 14
+            " stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+    <path d="M 39 56 L 61 94 L 3 82 L 39 56
+            " stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+    <path d="M 3 82 L 39 56 L 77 8 L 64 16 L 3 82
+            " stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+    <path d="M 69 36 L 78 62 L 92 64 L 82 38 L 69 36
+            " stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+    <path d="M 92 64 L 82 38 L 101 46 L 92 64
+            " stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+
+</svg>
