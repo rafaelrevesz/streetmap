@@ -25,7 +25,7 @@
 |   | 11a      | map          |                      |
 |   | 11b      | map          |                      |
 |   | 10       | -            | (üres)               |
-| * | 12       | -            | Karcsi               |
+|   | 12       | map          | Karcsi               |
 | * | 14       | paint        | Laci-Zsuzsi          |
 |   | 20       | map          | Mi                   |
 |   | 22       | photo        | Niki                 |
@@ -45,7 +45,7 @@
 |   | 38       | photo        | Francoise            |
 |   | 39       | map          | Elvira               |
 |   | 40       | photo        | mazdások             |
-|   | 41       | -            | Ricsi                |
+| * | 41       | -            | Ricsi                |
 |   | 42       | photo        | Janiék volt háza     |
 |   | 43       | -            | Attila               |
 |   | 44       | photo        | Jagicáék             |
