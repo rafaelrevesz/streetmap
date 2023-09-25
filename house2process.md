@@ -26,7 +26,7 @@
 |   | 11b      | map          |                      |
 |   | 10       | -            | (üres)               |
 |   | 12       | map          | Karcsi               |
-| * | 14       | paint        | Laci-Zsuzsi          |
+|   | 14       | map          | Laci-Zsuzsi          |
 |   | 20       | map          | Mi                   |
 |   | 22       | photo        | Niki                 |
 |   | 24       | map          | Márti                |

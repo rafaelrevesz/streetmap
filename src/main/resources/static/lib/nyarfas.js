@@ -23,6 +23,10 @@
 	  houses.push(new House("11/a", 47.541204, 18.721709, 47.541483, 18.721914, 0.00035, 0.00035, null));
 	  houses.push(new House("11/b", 47.541353, 18.721934, 47.541633, 18.722144, 0.00035, 0.00035, null));
 	  houses.push(new House("12", 47.54152, 18.71862, 47.54178, 18.71885, 0.00035, 0.00035, null));
+
+	  houses.push(new House("14", 47.5413, 18.7185, 47.54157, 18.7186, 0.00045, 0.00045, null));
+	  houses.push(new House("14/", 47.5412, 18.7185, 47.54178, 18.71885, 0.0003, 0.0003, null));
+
 	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Kahmunrah f&aacute;ra&oacute; kript&aacute;ja!'));
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 47.54055, 18.71793, 0.0004, 0.0004, null));
@@ -67,19 +71,21 @@
 	}
 
 	function addHouseNumberAsMarkerToMap(map, house) {
-		var houseNumberIcon = L.icon({
-			iconUrl: 'numbers/' + house.number.replaceAll("/", "_") +'.svg',
-			iconSize:     [100, 40],
-			iconAnchor:   [50, 40],
-			popupAnchor:  [0, -12]
-		})
-		var popupText = `Ny&aacute;rf&aacute;s u. ` + house.number;
-		if (house.info != null) {
-		  popupText = house.info;
-		}
-		L.marker([house.numberLatitude, house.numberLongitude],
-				{icon: houseNumberIcon}).addTo(map).bindPopup(popupText)
-				// popup szín csere: https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
+	    if (!house.number.endsWith("/")) {
+            var houseNumberIcon = L.icon({
+                iconUrl: 'numbers/' + house.number.replaceAll("/", "_") +'.svg',
+                iconSize:     [100, 40],
+                iconAnchor:   [50, 40],
+                popupAnchor:  [0, -12]
+            })
+            var popupText = `Ny&aacute;rf&aacute;s u. ` + house.number;
+            if (house.info != null) {
+              popupText = house.info;
+            }
+            L.marker([house.numberLatitude, house.numberLongitude],
+                    {icon: houseNumberIcon}).addTo(map).bindPopup(popupText)
+                    // popup szín csere: https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
+        }
 	}
 
 	function addStreet(map) {
@@ -125,6 +131,14 @@
         addPlantToMap(map, 47.54203, 18.71895, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54201, 18.7187, 0.00015, 0.00015, "tree_1"); // 39: fa
         addPlantToMap(map, 47.54201, 18.7196, 0.00015, 0.00015, "tree_1"); // 4: fa
+
+        addPlantToMap(map, 47.54142, 18.71862, 0.00012, 0.00012, "tree_1"); // 14: fa
+        addPlantToMap(map, 47.54143, 18.71872, 0.00012, 0.00012, "tree_1"); // 14: fa
+
+        addPlantToMap(map, 47.54133, 18.7184, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
+        addPlantToMap(map, 47.5413, 18.71845, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
+        addPlantToMap(map, 47.54127, 18.7185, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
+
         addPlantToMap(map, 47.5412, 18.7183, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.54115, 18.71825, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.5411, 18.7182, 0.00010, 0.00010, "tree_1"); // 20: fa
