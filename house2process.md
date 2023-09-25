@@ -21,7 +21,7 @@
 |   | 8        | -            | magtár               |
 |   | 9a       | map          |                      |
 |   | 9b       | map          |                      |
-| * | 9c       | paint        |                      |
+|   | 9c       | map          |                      |
 |   | 11a      | map          |                      |
 |   | 11b      | map          |                      |
 |   | 10       | -            | (üres)               |
