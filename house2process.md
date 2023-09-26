@@ -45,7 +45,7 @@
 |   | 38       | photo        | Francoise            |
 |   | 39       | map          | Elvira               |
 |   | 40       | photo        | mazdások             |
-| * | 41       | -            | Ricsi                |
+|   | 41       | map          | Ricsi                |
 |   | 42       | photo        | Janiék volt háza     |
 |   | 43       | -            | Attila               |
 |   | 44       | photo        | Jagicáék             |

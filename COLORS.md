@@ -12,6 +12,7 @@ Szürke tető: 7F7F7F
 
 Vajszínű fal: EAD7AF
 Szürke fal: C3C3C3
+Piros fal: F8A284
 
 Ablaküveg: B8D1E6
 
