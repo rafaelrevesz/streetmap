@@ -21,11 +21,11 @@
 	  houses.push(new House("2/g/1", 47.541355800387914, 18.720679748012023, 47.541625800387914, 18.720879748012023, 0.00036, 0.00036, null, null));
 	  houses.push(new House("2/g/2", 47.541210800387914, 18.720429748012023, 47.541480800387914, 18.720579748012023, 0.00036, 0.00036, null, null));
 	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, "Boszork&aacute;ny tanya", Icons.Witch));
-	  houses.push(new House("2/i/1", 47.54175800387914, 18.719559748012023, 47.54202, 18.7198, 0.00035, 0.00035, null, null));
-	  houses.push(new House("2/i/2", 47.54165800387914, 18.719859748012023, 47.54192, 18.7201, 0.00035, 0.00035, null, null));
-	  houses.push(new House("2/i/3", 47.54160800387914, 18.719359748012023, 47.54187, 18.7196, 0.00035, 0.00035, null, null));
-	  houses.push(new House("2/i/4", 47.54145800387914, 18.719709748012023, 47.54172, 18.7200, 0.00035, 0.00035, null, null));
-	  houses.push(new House("2/i/5", 47.54140800387914, 18.719209748012023, 47.54167, 18.7195, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/a", 47.54175800387914, 18.719559748012023, 47.54202, 18.7198, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/b", 47.54160800387914, 18.719359748012023, 47.54187, 18.7196, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/c", 47.54140800387914, 18.719209748012023, 47.54167, 18.71942, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/f", 47.54165800387914, 18.719859748012023, 47.54192, 18.7201, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/d", 47.54145800387914, 18.719709748012023, 47.54172, 18.7200, 0.00035, 0.00035, null, null));
 	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004, null, null));
 	  houses.push(new House("0/", 47.54184, 18.71885, 47.542147, 18.71847, 0.00025, 0.00025, null, null)); // 8
 	  houses.push(new House("9/a", 47.54104, 18.7221, 47.54135, 18.72235, 0.0004, 0.0004, null, null));
@@ -38,7 +38,7 @@
 	  houses.push(new House("14/", 47.5412, 18.7185, 47.54178, 18.71885, 0.0003, 0.0003, null, null));
 	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Kahmunrah f&aacute;ra&oacute; kript&aacute;ja', Icons.Pumpkin));
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null, null));
-	  houses.push(new House("25", 47.54199, 18.71995, 47.54226, 18.72007, 0.00047, 0.00047, "V&eacute;rfarkas tanya", Icons.Wolf));
+	  houses.push(new House("25", 47.54199, 18.71995, 47.54233, 18.72007, 0.00047, 0.00047, "V&eacute;rfarkas tanya", Icons.Wolf));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 47.54055, 18.71793, 0.0004, 0.0004, null, null));
 	  houses.push(new House("32", 47.54014800387914, 18.71757, 47.54041, 18.7177, 0.0004, 0.0004, "R&eacute;mek h&aacute;za", Icons.Cat));
 	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, "Szellem tanya", Icons.Ghost));
@@ -101,7 +101,6 @@
               numberFolder = "blue/";
             }
             var houseNumberIcon = L.icon({
-                //iconUrl: 'numbers/' + houseNumberFormatted +'.svg',
                 iconUrl: 'numbers/' + numberFolder + houseNumberFormatted +'.png',
                 iconSize:     [iconWidth, 40],
                 iconAnchor:   [iconAnchorX, 40],
@@ -117,13 +116,10 @@
 
                 L.marker([house.numberLatitude, house.numberLongitude],
                         {icon: houseNumberIcon}).bindPopup(customPopup,customOptions).addTo(map)
-                //L.marker([house.numberLatitude, house.numberLongitude],
-                //        {icon: houseNumberIcon}).addTo(map).bindPopup(document.getElementById("popup_" + houseNumberFormatted), {maxWidth: 500})
             } else {
                 L.marker([house.numberLatitude, house.numberLongitude],
                         {icon: houseNumberIcon}).addTo(map)
             }
-                    // popup szín csere: https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
         }
 	}
 

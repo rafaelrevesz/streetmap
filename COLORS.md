@@ -37,4 +37,4 @@ zöld: 75B943
 
 # Betütípus
 
-Házszám: Maiandra DG
+Házszám: Maiandra DG, 16-os méret
