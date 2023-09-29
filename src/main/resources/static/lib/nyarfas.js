@@ -96,9 +96,13 @@
                     }
                 }
             var houseNumberFormatted = house.number.replaceAll("/", "_");
+            var numberFolder = "orange/";
+            if (house.info != null) {
+              numberFolder = "blue/";
+            }
             var houseNumberIcon = L.icon({
                 //iconUrl: 'numbers/' + houseNumberFormatted +'.svg',
-                iconUrl: 'numbers/' + houseNumberFormatted +'.png',
+                iconUrl: 'numbers/' + numberFolder + houseNumberFormatted +'.png',
                 iconSize:     [iconWidth, 40],
                 iconAnchor:   [iconAnchorX, 40],
                 popupAnchor:  [0, -12]
