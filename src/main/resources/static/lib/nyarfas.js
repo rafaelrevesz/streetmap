@@ -1,47 +1,58 @@
+    const Icons = {
+      Ghost: "ghost",
+      Witch: "witch",
+      Wolf: "wolf",
+      Skull: "skull",
+      Spider: "spider",
+      Rip: "rip",
+      Cat: "cat",
+      Pumpkin: "pumpkin"
+    }
+
 	function getHouses() {
 	  var houses = new Array();
-	  houses.push(new House("2/c", 47.540820800387914, 18.721879748012023, 47.541085800387914, 18.722079748012023, 0.00035, 0.00035, null));
-	  houses.push(new House("2/d/a", 47.540965800387914, 18.721579748012023, 47.541225800387914, 18.721779748012023, 0.00035, 0.00035, null));
-	  houses.push(new House("2/d/b", 47.540820800387914, 18.721329748012023, 47.541080800387914, 18.721479748012023, 0.00035, 0.00035, null));
-	  houses.push(new House("2/e/1", 47.541095800387914, 18.721279748012023, 47.541365800387914, 18.721479748012023, 0.00036, 0.00036, null));
-	  houses.push(new House("2/e/2", 47.540950800387914, 18.721029748012023, 47.541220800387914, 18.721179748012023, 0.00035, 0.00035, null));
-	  houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 47.541495800387914, 18.721179748012023, 0.00036, 0.00036, null));
-	  houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 47.541350800387914, 18.720879748012023, 0.00036, 0.00036, null));
-	  houses.push(new House("2/g/1", 47.541355800387914, 18.720679748012023, 47.541625800387914, 18.720879748012023, 0.00036, 0.00036, null));
-	  houses.push(new House("2/g/2", 47.541210800387914, 18.720429748012023, 47.541480800387914, 18.720579748012023, 0.00036, 0.00036, null));
-	  houses.push(new House("2/h", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, null));
-	  houses.push(new House("2/i/1", 47.54175800387914, 18.719559748012023, 47.54202, 18.7198, 0.00035, 0.00035, null));
-	  houses.push(new House("2/i/2", 47.54165800387914, 18.719859748012023, 47.54192, 18.7201, 0.00035, 0.00035, null));
-	  houses.push(new House("2/i/3", 47.54160800387914, 18.719359748012023, 47.54187, 18.7196, 0.00035, 0.00035, null));
-	  houses.push(new House("2/i/4", 47.54145800387914, 18.719709748012023, 47.54172, 18.7200, 0.00035, 0.00035, null));
-	  houses.push(new House("2/i/5", 47.54140800387914, 18.719209748012023, 47.54167, 18.7195, 0.00035, 0.00035, null));
-	  houses.push(new House("25", 47.54199, 18.71995, 47.54226, 18.72007, 0.00035, 0.00035, null));
-	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004, null));
-	  houses.push(new House("9/a", 47.54104, 18.7221, 47.54135, 18.72235, 0.0004, 0.0004, null));
-	  houses.push(new House("9/b", 47.5413, 18.72235, 47.5416, 18.72258, 0.0004, 0.0004, null));
-	  houses.push(new House("9/c", 47.54112, 18.7219, 47.54142, 18.72213, 0.0004, 0.0004, null));
-	  houses.push(new House("11/a", 47.541204, 18.721709, 47.541483, 18.721914, 0.00035, 0.00035, null));
-	  houses.push(new House("11/b", 47.541353, 18.721934, 47.541633, 18.722144, 0.00035, 0.00035, null));
-	  houses.push(new House("12", 47.54152, 18.71862, 47.54178, 18.71885, 0.00035, 0.00035, null));
-	  houses.push(new House("14", 47.5413, 18.7185, 47.54157, 18.7186, 0.00045, 0.00045, null));
-	  houses.push(new House("14/", 47.5412, 18.7185, 47.54178, 18.71885, 0.0003, 0.0003, null));
-	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Kahmunrah f&aacute;ra&oacute; kript&aacute;ja!'));
-	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null));
-	  houses.push(new House("30", 47.54026800387914, 18.71768, 47.54055, 18.71793, 0.0004, 0.0004, null));
-	  houses.push(new House("32", 47.54014800387914, 18.71757, 47.54041, 18.7177, 0.0004, 0.0004, null));
-	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, null));
-
-	  houses.push(new House("41", 47.541885, 18.7184, 47.542147, 18.71847, 0.00035, 0.00035, null));
-
-	  houses.push(new House("45", 47.54163800387914, 18.71825, 47.54192, 18.71839, 0.0004, 0.0004, null));
-	  houses.push(new House("61", 47.54054000387914, 18.71728, 47.54084, 18.71748, 0.0004, 0.0004, null));
-	  houses.push(new House("65", 47.54030000387914, 18.71715, 47.54053, 18.7173, 0.00033, 0.00033, null));
-	  houses.push(new House("67", 47.54010800387914, 18.71692, 47.54044, 18.71715, 0.00045, 0.00045, null));
-	  houses.push(new House("75", 47.539505800387914, 18.716469748012023, 47.539815800387914, 18.716629748012023, 0.0004, 0.0004, null));
-	  houses.push(new House("79", 47.539325800387914, 18.716349748012023, 47.539535800387914, 18.716499748012023, 0.0003, 0.0003, null));
-	  houses.push(new House("81", 47.539167800387914, 18.716089748012023, 47.539415800387914, 18.716279748012023, 0.00035, 0.00035, null));
-	  houses.push(new House("83", 47.539105800387914, 18.715669748012023, 47.539375800387914, 18.715789748012023, 0.0004, 0.0004, null));
-	  houses.push(new House("85", 47.538905800387914, 18.715579748012023, 47.539230800387914, 18.715679748012023, 0.0004, 0.0004, null));
+	  houses.push(new House("2/c", 47.540820800387914, 18.721879748012023, 47.541085800387914, 18.722079748012023, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/d/a", 47.540965800387914, 18.721579748012023, 47.541225800387914, 18.721779748012023, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/d/b", 47.540820800387914, 18.721329748012023, 47.541080800387914, 18.721479748012023, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/e/1", 47.541095800387914, 18.721279748012023, 47.541365800387914, 18.721479748012023, 0.00036, 0.00036, null, null));
+	  houses.push(new House("2/e/2", 47.540950800387914, 18.721029748012023, 47.541220800387914, 18.721179748012023, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 47.541495800387914, 18.721179748012023, 0.00036, 0.00036, null, null));
+	  houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 47.541350800387914, 18.720879748012023, 0.00036, 0.00036, null, null));
+	  houses.push(new House("2/g/1", 47.541355800387914, 18.720679748012023, 47.541625800387914, 18.720879748012023, 0.00036, 0.00036, null, null));
+	  houses.push(new House("2/g/2", 47.541210800387914, 18.720429748012023, 47.541480800387914, 18.720579748012023, 0.00036, 0.00036, null, null));
+	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 47.541725800387914, 18.720479748012023, 0.0004, 0.0004, "Boszork&aacute;ny tanya", Icons.Witch));
+	  houses.push(new House("2/i/1", 47.54175800387914, 18.719559748012023, 47.54202, 18.7198, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/2", 47.54165800387914, 18.719859748012023, 47.54192, 18.7201, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/3", 47.54160800387914, 18.719359748012023, 47.54187, 18.7196, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/4", 47.54145800387914, 18.719709748012023, 47.54172, 18.7200, 0.00035, 0.00035, null, null));
+	  houses.push(new House("2/i/5", 47.54140800387914, 18.719209748012023, 47.54167, 18.7195, 0.00035, 0.00035, null, null));
+	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 47.54225, 18.7194, 0.0004, 0.0004, null, null));
+	  houses.push(new House("0/", 47.54184, 18.71885, 47.542147, 18.71847, 0.00025, 0.00025, null, null)); // 8
+	  houses.push(new House("9/a", 47.54104, 18.7221, 47.54135, 18.72235, 0.0004, 0.0004, null, null));
+	  houses.push(new House("9/b", 47.5413, 18.72235, 47.5416, 18.72258, 0.0004, 0.0004, null, null));
+	  houses.push(new House("9/c", 47.54112, 18.7219, 47.54142, 18.72213, 0.0004, 0.0004, null, null));
+	  houses.push(new House("11/a", 47.541204, 18.721709, 47.541483, 18.721914, 0.00035, 0.00035, null, null));
+	  houses.push(new House("11/b", 47.541353, 18.721934, 47.541633, 18.722144, 0.00035, 0.00035, null, null));
+	  houses.push(new House("12", 47.54152, 18.71862, 47.54178, 18.71885, 0.00035, 0.00035, null, null));
+	  houses.push(new House("14", 47.5413, 18.7185, 47.54157, 18.7186, 0.00045, 0.00045, null, null));
+	  houses.push(new House("14/", 47.5412, 18.7185, 47.54178, 18.71885, 0.0003, 0.0003, null, null));
+	  houses.push(new House("20", 47.54090800387914, 18.7183, 47.54122800387914, 18.718459748012023, 0.00042, 0.00042, 'Kahmunrah f&aacute;ra&oacute; kript&aacute;ja', Icons.Pumpkin));
+	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null, null));
+	  houses.push(new House("25", 47.54199, 18.71995, 47.54226, 18.72007, 0.00047, 0.00047, "V&eacute;rfarkas tanya", Icons.Wolf));
+	  houses.push(new House("30", 47.54026800387914, 18.71768, 47.54055, 18.71793, 0.0004, 0.0004, null, null));
+	  houses.push(new House("32", 47.54014800387914, 18.71757, 47.54041, 18.7177, 0.0004, 0.0004, "R&eacute;mek h&aacute;za", Icons.Cat));
+	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, "Szellem tanya", Icons.Ghost));
+	  houses.push(new House("41", 47.541885, 18.7184, 47.542147, 18.71847, 0.00035, 0.00035, null, null));
+	  houses.push(new House("0/", 47.54182, 18.71839, 47.542147, 18.71847, 0.00025, 0.00025, null, null)); // 43
+	  houses.push(new House("45", 47.54163800387914, 18.71825, 47.54192, 18.71839, 0.0004, 0.0004, "Az elszabadult zombi otthona", Icons.Skull));
+	  houses.push(new House("61", 47.54054000387914, 18.71728, 47.54084, 18.71748, 0.0004, 0.0004, null, null));
+	  houses.push(new House("65", 47.54030000387914, 18.71715, 47.54053, 18.7173, 0.00033, 0.00033, "A temet&#337;", Icons.Rip));
+	  houses.push(new House("67", 47.54010800387914, 18.71692, 47.54044, 18.71715, 0.00045, 0.00045, null, null));
+	  houses.push(new House("75", 47.539505800387914, 18.716469748012023, 47.539815800387914, 18.716629748012023, 0.0004, 0.0004, "Banya tanya", Icons.Witch));
+	  houses.push(new House("79", 47.539325800387914, 18.716349748012023, 47.539535800387914, 18.716499748012023, 0.0003, 0.0003, "P&oacute;k h&aacute;l&oacute;j&aacute;ban", Icons.Spider));
+	  houses.push(new House("81", 47.539167800387914, 18.716089748012023, 47.539415800387914, 18.716279748012023, 0.00035, 0.00035, null, null));
+	  houses.push(new House("83", 47.539105800387914, 18.715669748012023, 47.539375800387914, 18.715789748012023, 0.0004, 0.0004, "P&oacute;k-&oacute;l", Icons.Spider));
+	  houses.push(new House("85", 47.538905800387914, 18.715579748012023, 47.539230800387914, 18.715679748012023, 0.0004, 0.0004, "Pocakos p&oacute;k pagod&aacute;ja", Icons.Spider));
 	  return houses;
 	}
 
@@ -73,18 +84,41 @@
 
 	function addHouseNumberAsMarkerToMap(map, house) {
 	    if (!house.number.endsWith("/")) {
+                iconWidth = 50;
+                iconAnchorX = 22;
+                if (house.number.length > 4) {
+                    if (house.number.length > 5) {
+                        iconWidth = 100;
+                        iconAnchorX = 46;
+                    } else {
+                        iconWidth = 75;
+                        iconAnchorX = 33;
+                    }
+                }
+            var houseNumberFormatted = house.number.replaceAll("/", "_");
             var houseNumberIcon = L.icon({
-                iconUrl: 'numbers/' + house.number.replaceAll("/", "_") +'.svg',
-                iconSize:     [100, 40],
-                iconAnchor:   [50, 40],
+                //iconUrl: 'numbers/' + houseNumberFormatted +'.svg',
+                iconUrl: 'numbers/' + houseNumberFormatted +'.png',
+                iconSize:     [iconWidth, 40],
+                iconAnchor:   [iconAnchorX, 40],
                 popupAnchor:  [0, -12]
             })
-            var popupText = `Ny&aacute;rf&aacute;s u. ` + house.number;
             if (house.info != null) {
-              popupText = house.info;
+                var customPopup = "<table class='popupContainer'><tr><td class='icon'><img src='" + serverUrl + "/icons/" + house.icon + ".png'></td><td class='title'><b>" + house.number + "</b>: " + house.info + "</td></tr></table>";
+                var customOptions =
+                        {
+                        'maxWidth': '500',
+                        'className' : 'custom'
+                        }
+
+                L.marker([house.numberLatitude, house.numberLongitude],
+                        {icon: houseNumberIcon}).bindPopup(customPopup,customOptions).addTo(map)
+                //L.marker([house.numberLatitude, house.numberLongitude],
+                //        {icon: houseNumberIcon}).addTo(map).bindPopup(document.getElementById("popup_" + houseNumberFormatted), {maxWidth: 500})
+            } else {
+                L.marker([house.numberLatitude, house.numberLongitude],
+                        {icon: houseNumberIcon}).addTo(map)
             }
-            L.marker([house.numberLatitude, house.numberLongitude],
-                    {icon: houseNumberIcon}).addTo(map).bindPopup(popupText)
                     // popup szín csere: https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
         }
 	}
@@ -105,7 +139,7 @@
 	}
 
 	class House {
-	  constructor(number, latitude, longitude, numberLatitude, numberLongitude, width, height, info) {
+	  constructor(number, latitude, longitude, numberLatitude, numberLongitude, width, height, info, icon) {
 	    this.number = number;
 	    this.latitude = latitude;
 	    this.longitude = longitude;
@@ -114,6 +148,7 @@
 	    this.width = width;
 	    this.height = height;
 	    this.info = info;
+	    this.icon = icon;
 	  }
 	}
 

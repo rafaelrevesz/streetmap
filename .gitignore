@@ -37,3 +37,4 @@ nbdist/
 
 ### Generated service version ###
 **/src/main/resources/version.txt
+/web/

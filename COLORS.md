@@ -34,3 +34,7 @@ pink: DC4E8F
 narancs: E5782F
 
 zöld: 75B943
+
+# Betütípus
+
+Házszám: Maiandra DG

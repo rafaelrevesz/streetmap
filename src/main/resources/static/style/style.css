@@ -1,0 +1,43 @@
+.popup {
+  position: absolute;
+  width:250px;
+  height:40px;
+  background-color: #2EADD7;
+  border: 1px solid black;
+}
+.popup .icon {
+  float: left;
+  height: 40px;
+}
+.popup .title {
+  float: left;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: Arial;
+}
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: #2EADD7;
+    color: #ffffff;
+    border-radius: 2px;
+    margin: 0px;,
+    padding: 0px;
+    border: 1px solid white;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    margin: 5px;,
+}
+.custom .popupContainer {
+  width: 250px;
+}
+.custom .popupContainer .icon {
+  width: 40px;
+  align: center;
+}
+.custom .popupContainer .title {
+  font-size: 18px;
+  font-family: Arial;
+  color: white;
+}
