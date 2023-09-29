@@ -18,6 +18,13 @@ test {
     useJUnitPlatform()
 }
 
+tasks.register('targetHome') {
+    doLast {
+        println "Preparing for home"
+        new File(projectDir, "/src/main/resources/static/lib/config.js").text = "var serverUrl = \"http://192.168.1.67:81/streetmap\";"
+    }
+}
+
 tasks.register('prepare') {
     dependsOn("packageDistribution")
 }
