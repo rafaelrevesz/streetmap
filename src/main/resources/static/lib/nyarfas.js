@@ -40,6 +40,9 @@
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 47.54089800387914, 18.718109748012023, 0.00042, 0.00042, null, null));
 	  houses.push(new House("25", 47.54199, 18.71995, 47.54233, 18.72007, 0.00047, 0.00047, "V&eacute;rfarkas tanya", Icons.Wolf));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 47.54055, 18.71793, 0.0004, 0.0004, null, null));
+
+	  houses.push(new House("31", 47.54225, 18.7192, 47.542595, 18.71937, 0.00045, 0.00045, null, null));
+
 	  houses.push(new House("32", 47.54014800387914, 18.71757, 47.54041, 18.7177, 0.0004, 0.0004, "R&eacute;mek h&aacute;za", Icons.Cat));
 	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 47.54228800387914, 18.718759748012023, 0.0004, 0.0004, "Szellem tanya", Icons.Ghost));
 	  houses.push(new House("41", 47.541885, 18.7184, 47.542147, 18.71847, 0.00035, 0.00035, null, null));
@@ -165,6 +168,7 @@
         addPlantToMap(map, 47.54217, 18.71909, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54210, 18.71902, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54203, 18.71895, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
+        addPlantToMap(map, 47.54243, 18.7192, 0.00018, 0.00018, "tree_1"); // 31: fa
         addPlantToMap(map, 47.54201, 18.7187, 0.00015, 0.00015, "tree_1"); // 39: fa
         addPlantToMap(map, 47.54201, 18.7196, 0.00015, 0.00015, "tree_1"); // 4: fa
 
