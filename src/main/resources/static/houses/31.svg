@@ -21,24 +21,6 @@
     <path d="M 72 63 L 96 74 L 103 66 L 83 54 L 72 63" stroke-width="3" stroke="#765641" fill="#DA5E53"/>
     <line x1="72" y1="63" x2="51" y2="75" stroke-width="3" stroke="#765641"/>
 
-    <!--path d="M 121 29 L 121 55 L 84 65 L 84 39 L 121 29" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
-    <path d="M 101 50 L 101 77 L 66 89 L 66 61 L 101 50" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
-    <path d="M 66 89 L 66 61 L 11 23 L 11 49 L 66 89" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
-
-    <path d="M 66 63 L 104 51 L 74 37 L 66 63" stroke-width="3" stroke="#765641" fill="#D87254"/>
-    <path d="M 49 1 L 8 24 L 66 63 L 74 37 L 62 28 L 74 11 L 49 1" stroke-width="3" stroke="#765641" fill="#D87254"/>
-    <path d="M 62 28 L 74 11 L 125 30 L 84 40 L 62 28" stroke-width="3" stroke="#765641" fill="#D87254"/>
-
-    <path d="M 71 66 L 71 79 L 80 76 L 80 63 L 71 66" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
-    <path d="M 87 62 L 87 73 L 96 70 L 96 59 L 87 62" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
-    <path d="M 19 36 L 19 46 L 26 51 L 26 40 L 19 36" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
-
-    <path d="M 172 100 L 172 80 L 162 77 L 147 90 L 147 111 L 172 100" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
-    <path d="M 147 90 L 147 111 L 127 94 L 127 74 L 149 90" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
-    <path d="M 147 90 L 162 77 L 142 65L 127 74  L 147 90" stroke-width="3" stroke="#765641" fill="#D87254"/>
-
-    <path d="M 140 105 L 140 86 L 131 77 L 131 97 L 140 105" stroke-width="3" stroke="#765641" fill="#B8D1E6"/-->
-
     <path d="M 65 163 L 65 145 L 58 148 L 58 167 L 65 163" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
     <path d="M 58 148 L 58 167 L 53 162 L 53 144 L 58 148" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
     <path d="M 53 144 L 58 148 L 65 145 L 60 140 L 53 144" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
