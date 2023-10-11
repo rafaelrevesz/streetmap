@@ -108,7 +108,7 @@
 	  numbers.push(new HouseNumber("81", 47.539415800387914, 18.716279748012023));
 	  numbers.push(new HouseNumber("83", 47.539375800387914, 18.715789748012023));
 	  numbers.push(new HouseNumber("85", 47.539230800387914, 18.715679748012023));
-	  return houses;
+	  return numbers;
 	}
 
 	function addHouseToMap(map, house) {
