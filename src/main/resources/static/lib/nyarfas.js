@@ -62,6 +62,55 @@
 	  return houses;
 	}
 
+	function getHouseNumbers() {
+	  var numbers = new Array();
+	  numbers.push(new HouseNumber("2/c", 47.5410858003, 18.722058));
+	  numbers.push(new HouseNumber("2/d/a", 47.54123, 18.721779748012023));
+	  numbers.push(new HouseNumber("2/d/b", 47.541080800387914, 18.721479748012023));
+	  numbers.push(new HouseNumber("2/e/1", 47.541365800387914, 18.721479748012023));
+	  numbers.push(new HouseNumber("2/e/2", 47.54121, 18.721179748012023));
+	  numbers.push(new HouseNumber("2/f/1", 47.541495800387914, 18.721179748012023));
+	  numbers.push(new HouseNumber("2/f/2", 47.541350800387914, 18.720879748012023));
+	  numbers.push(new HouseNumber("2/g/1", 47.541625800387914, 18.720879748012023));
+	  numbers.push(new HouseNumber("2/g/2", 47.541480800387914, 18.720579748012023));
+	  numbers.push(new HouseNumber("592/18", 47.541725800387914, 18.720479748012023));
+	  numbers.push(new HouseNumber("2/i/a", 47.54202, 18.7198));
+	  numbers.push(new HouseNumber("2/i/b", 47.54187, 18.7196));
+	  numbers.push(new HouseNumber("2/i/c", 47.54168, 18.71942));
+	  numbers.push(new HouseNumber("2/i/f", 47.54192, 18.7201));
+      numbers.push(new HouseNumber("2/i/d", 47.54173, 18.71993));
+	  numbers.push(new HouseNumber("4", 47.54224, 18.7194));
+	  //numbers.push(new HouseNumber("0/", 47.542147, 18.71847)); // 8
+	  numbers.push(new HouseNumber("9/a", 47.54135, 18.72235));
+	  numbers.push(new HouseNumber("9/b", 47.5416, 18.72258));
+	  numbers.push(new HouseNumber("9/c", 47.54142, 18.72213));
+	  numbers.push(new HouseNumber("11/a", 47.541483, 18.721914));
+	  numbers.push(new HouseNumber("11/b", 47.541633, 18.722144));
+	  numbers.push(new HouseNumber("12", 47.54178, 18.71885));
+	  numbers.push(new HouseNumber("14", 47.54157, 18.7186));
+	  numbers.push(new HouseNumber("20", 47.54122800387914, 18.718459748012023));
+	  numbers.push(new HouseNumber("24", 47.54089800387914, 18.718109748012023));
+	  numbers.push(new HouseNumber("25", 47.54234  , 18.72007));
+	  numbers.push(new HouseNumber("29", 47.542495, 18.719575));
+	  numbers.push(new HouseNumber("30", 47.540545 , 18.71793));
+	  numbers.push(new HouseNumber("31", 47.542595, 18.71937));
+	  numbers.push(new HouseNumber("32", 47.54041, 18.7177));
+	  numbers.push(new HouseNumber("37", 47.54244, 18.71886));
+	  numbers.push(new HouseNumber("39", 47.54227, 18.718729748012023));
+	  numbers.push(new HouseNumber("41", 47.542147, 18.71847));
+	  //numbers.push(new HouseNumber("0/", 47.542147, 18.71847, 0 // 43
+	  numbers.push(new HouseNumber("45", 47.54192, 18.71839));
+	  numbers.push(new HouseNumber("61", 47.54084, 18.71748));
+	  numbers.push(new HouseNumber("65", 47.54053, 18.7173));
+	  numbers.push(new HouseNumber("67", 47.540445, 18.71713));
+	  numbers.push(new HouseNumber("75", 47.539815800387914, 18.716629748012023));
+	  numbers.push(new HouseNumber("79", 47.539535800387914, 18.716499748012023));
+	  numbers.push(new HouseNumber("81", 47.539415800387914, 18.716279748012023));
+	  numbers.push(new HouseNumber("83", 47.539375800387914, 18.715789748012023));
+	  numbers.push(new HouseNumber("85", 47.539230800387914, 18.715679748012023));
+	  return houses;
+	}
+
 	function addHouseToMap(map, house) {
         var imageUrl = 'houses/' + house.number.replaceAll("/", "_") + '.svg';
         var altText = house.number;
@@ -88,13 +137,13 @@
             }).addTo(map);
 	}
 
-	function addHouseNumberAsMarkerToMap(map, house, eventMap) {
-	    var event = eventMap.get(house.number);
+	function addHouseNumberAsMarkerToMap(map, houseNumber, eventMap) {
+	    var event = eventMap.get(houseNumber.number);
 	    if (event != null) {
                 iconWidth = 50;
                 iconAnchorX = 22;
-                if (house.number.length > 4) {
-                    if (house.number.length > 5) {
+                if (houseNumber.number.length > 4) {
+                    if (houseNumber.number.length > 5) {
                         iconWidth = 100;
                         iconAnchorX = 46;
                     } else {
@@ -102,7 +151,7 @@
                         iconAnchorX = 33;
                     }
                 }
-            var houseNumberFormatted = house.number.replaceAll("/", "_");
+            var houseNumberFormatted = houseNumber.number.replaceAll("/", "_");
             var numberFolder = "orange/";
             if (event.info != null) {
               numberFolder = "blue/";
@@ -114,17 +163,17 @@
                 popupAnchor:  [0, -12]
             })
             if (event.info != null) {
-                var customPopup = "<table class='popupContainer'><tr><td class='icon'><img src='" + serverUrl + "/icons/" + event.icon + ".png'></td><td class='title'><b>" + house.number + "</b>: " + event.info + "</td></tr></table>";
+                var customPopup = "<table class='popupContainer'><tr><td class='icon'><img src='" + serverUrl + "/icons/" + event.icon + ".png'></td><td class='title'><b>" + houseNumber.number + "</b>: " + event.info + "</td></tr></table>";
                 var customOptions =
                         {
                         'maxWidth': '500',
                         'className' : 'custom'
                         }
 
-                L.marker([house.numberLatitude, house.numberLongitude],
+                L.marker([houseNumber.latitude, houseNumber.longitude],
                         {icon: houseNumberIcon}).bindPopup(customPopup,customOptions).addTo(map)
             } else {
-                L.marker([house.numberLatitude, house.numberLongitude],
+                L.marker([houseNumber.latitude, houseNumber.longitude],
                         {icon: houseNumberIcon}).addTo(map)
             }
         }
@@ -154,6 +203,14 @@
 	    this.numberLongitude = numberLongitude;
 	    this.width = width;
 	    this.height = height;
+	  }
+	}
+
+	class HouseNumber {
+	  constructor(number, latitude, longitude) {
+	    this.number = number;
+	    this.latitude = latitude;
+	    this.longitude = longitude;
 	  }
 	}
 
