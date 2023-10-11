@@ -38,3 +38,5 @@ nbdist/
 ### Generated service version ###
 **/src/main/resources/version.txt
 /web/
+
+src/main/resources/static/events/names.js
