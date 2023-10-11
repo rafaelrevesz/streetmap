@@ -17,12 +17,12 @@
   font-size: 14px;
   font-family: Arial;
 }
-.custom .leaflet-popup-tip,
+
+/*.custom .leaflet-popup-tip,*/
 .custom .leaflet-popup-content-wrapper {
     background: #2EADD7;
     color: #ffffff;
     border-radius: 2px;
-    margin: 0px;,
     padding: 0px;
     border: 1px solid white;
 }
