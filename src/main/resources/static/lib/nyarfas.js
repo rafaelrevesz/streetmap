@@ -83,6 +83,14 @@
       numbers.push(new HouseNumber("2/i/d", 47.54173, 18.71993));
 	  numbers.push(new HouseNumber("4", 47.54224, 18.7194));
 	  numbers.push(new HouseNumber("8", 47.542147, 18.71847));
+
+	  numbers.push(new HouseNumber("7/1", 47.541255, 18.72222));
+	  numbers.push(new HouseNumber("7/2", 47.54131, 18.72229));
+	  numbers.push(new HouseNumber("7/3", 47.54137, 18.72238));
+	  numbers.push(new HouseNumber("9/1", 47.541335, 18.72202));
+	  numbers.push(new HouseNumber("9/2", 47.541395, 18.72210));
+	  numbers.push(new HouseNumber("9/3", 47.54145, 18.72218));
+
 	  numbers.push(new HouseNumber("9/a", 47.54135, 18.72235));
 	  numbers.push(new HouseNumber("9/b", 47.5416, 18.72258));
 	  numbers.push(new HouseNumber("9/c", 47.54142, 18.72213));
