@@ -8,5 +8,8 @@
       Cat: "cat",
       Bat: "bat",
       Pumpkin: "pumpkin",
+      Zombie: "zombie",
+      ZombieHand: "zombie-hand",
+      Kitchen: "kitchen",
       None: "none"
     }
