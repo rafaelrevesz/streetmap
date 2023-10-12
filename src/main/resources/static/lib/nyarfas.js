@@ -27,17 +27,32 @@
 	  houses.push(new House("14", 47.5413, 18.7185, 0.00045, 0.00045));
 	  houses.push(new House("14/", 47.5412, 18.7185, 0.0003, 0.0003));
 	  houses.push(new House("20", 47.54090800387914, 18.7183, 0.00042, 0.00042));
+	  houses.push(new House("0/", 47.54086, 18.71805, 0.00025, 0.00025)); // 22
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 0.00042, 0.00042));
 	  houses.push(new House("25", 47.54199, 18.71995, 0.00047, 0.00047));
+	  houses.push(new House("0/", 47.54059, 18.71782, 0.00025, 0.00025)); // 26
 	  houses.push(new House("29", 47.54223, 18.71945, 0.00035, 0.00035));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 0.0004, 0.0004));
 	  houses.push(new House("31", 47.54225, 18.7192, 0.00045, 0.00045));
 	  houses.push(new House("32", 47.54014800387914, 18.71757, 0.0004, 0.0004));
+	  houses.push(new House("0/", 47.53991, 18.71736, 0.00025, 0.00025)); // 36
 	  houses.push(new House("37", 47.54217, 18.71870, 0.00035, 0.00035));
+	  houses.push(new House("0/", 47.53976, 18.71725, 0.00025, 0.00025)); // 38
 	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 0.0004, 0.0004));
+	  houses.push(new House("0/", 47.53961, 18.71714, 0.00025, 0.00025)); // 40
 	  houses.push(new House("41", 47.541885, 18.7184, 0.00035, 0.00035));
+	  houses.push(new House("0/", 47.53949, 18.71703, 0.00025, 0.00025)); // 42
       houses.push(new House("0/", 47.54182, 18.71839, 0.00025, 0.00025)); // 43
+	  houses.push(new House("0/", 47.53936, 18.71692, 0.00025, 0.00025)); // 44
 	  houses.push(new House("45", 47.54163800387914, 18.71825, 0.0004, 0.0004));
+	  houses.push(new House("0/", 47.541555, 18.71817, 0.00025, 0.00025)); // 47
+	  houses.push(new House("0/", 47.541420, 18.71808, 0.00025, 0.00025)); // 49
+	  houses.push(new House("0/", 47.53895, 18.71645, 0.00025, 0.00025)); // 50
+	  houses.push(new House("0/", 47.541285, 18.71798, 0.00025, 0.00025)); // 51
+	  houses.push(new House("0/", 47.53880, 18.7162, 0.00025, 0.00025)); // 52
+	  houses.push(new House("0/", 47.541150, 18.71788, 0.00025, 0.00025)); // 53
+	  houses.push(new House("0/", 47.541090, 18.71766, 0.00025, 0.00025)); // 55
+	  houses.push(new House("0/", 47.541025, 18.71730, 0.00025, 0.00025)); // 57
 	  houses.push(new House("61", 47.54054000387914, 18.71728, 0.0004, 0.0004));
 	  houses.push(new House("65", 47.54030000387914, 18.71715, 0.00033, 0.00033));
 	  houses.push(new House("67", 47.54010800387914, 18.71692, 0.00045, 0.00045));
@@ -202,6 +217,31 @@
 	function addPlantsToMapBeforeHouses(map) {
         addPlantToMap(map, 47.542000, 18.719799, 0.00015, 0.00015, "tree_1"); // 2/i: fa
         addPlantToMap(map, 47.541847, 18.720101, 0.00015, 0.00015, "tree_1"); // 2/i: fa
+
+        addPlantToMap(map, 47.54170, 18.72032, 0.00010, 0.00010, "bush_2"); // 592/18 mellett: fa
+        addPlantToMap(map, 47.54166, 18.72028, 0.00010, 0.00010, "tree_1"); // 592/18 mellett: fa
+        addPlantToMap(map, 47.54162, 18.72024, 0.00010, 0.00010, "tree_1"); // 592/18 mellett: fa
+        addPlantToMap(map, 47.54158, 18.7202, 0.00010, 0.00010, "tree_1"); // 592/18 mellett: fa
+        addPlantToMap(map, 47.54223, 18.71930, 0.00011, 0.00018, "bush_1"); // 4: ház előtti bokor
+        addPlantToMap(map, 47.54178, 18.71872, 0.00008, 0.00008, "tree_1"); // 12: ház előtti kis fa
+        addPlantToMap(map, 47.54174, 18.71868, 0.00008, 0.00008, "tree_1"); // 12: ház előtti kis fa
+        addPlantToMap(map, 47.54170, 18.71864, 0.00008, 0.00008, "tree_1"); // 12: ház előtti kis fa
+
+        addPlantToMap(map, 47.53898, 18.7162, 0.00010, 0.00006, "bush_1"); // 52 előtt: fa
+        addPlantToMap(map, 47.53892, 18.7161, 0.00010, 0.00010, "bush_2"); // 52 előtt: fa
+        addPlantToMap(map, 47.53892, 18.71615, 0.00011, 0.00011, "tree_1"); // kanyar: fa
+
+        addPlantToMap(map, 47.53995, 18.71722, 0.00011, 0.00011, "tree_1"); // 40
+        addPlantToMap(map, 47.53990, 18.71721, 0.00006, 0.00006, "tree_1"); // 40
+        addPlantToMap(map, 47.53985, 18.71718, 0.00006, 0.00006, "tree_1"); // 40
+        addPlantToMap(map, 47.53984, 18.71718, 0.00003, 0.00006, "bush_2"); // 40
+
+        addPlantToMap(map, 47.54020, 18.71754, 0.00008, 0.00008, "tree_1"); // 34
+        addPlantToMap(map, 47.54013, 18.71750, 0.00008, 0.00008, "tree_1"); // 34
+        addPlantToMap(map, 47.54017, 18.71762, 0.00008, 0.00008, "tree_1"); // 34
+        addPlantToMap(map, 47.54010, 18.71758, 0.00008, 0.00008, "tree_1"); // 34
+        addPlantToMap(map, 47.54014, 18.71770, 0.00008, 0.00008, "tree_1"); // 34
+        addPlantToMap(map, 47.54007, 18.71766, 0.00008, 0.00008, "tree_1"); // 34
 	}
 
 	function addPlantsToMap(map) {
@@ -219,9 +259,18 @@
         addPlantToMap(map, 47.54142, 18.71862, 0.00012, 0.00012, "tree_1"); // 14: fa
         addPlantToMap(map, 47.54143, 18.71872, 0.00012, 0.00012, "tree_1"); // 14: fa
 
+        addPlantToMap(map, 47.54177, 18.71854, 0.00008, 0.00008, "tree_1"); // 45: ház előtti kis fa
+        addPlantToMap(map, 47.54166, 18.71843, 0.00008, 0.00008, "tree_1"); // 45: ház előtti kis fa
+
+        addPlantToMap(map, 47.54140, 18.7184, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
+        addPlantToMap(map, 47.54137, 18.7184, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
         addPlantToMap(map, 47.54133, 18.7184, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
         addPlantToMap(map, 47.5413, 18.71845, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
         addPlantToMap(map, 47.54127, 18.7185, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
+
+        addPlantToMap(map, 47.54110, 18.71800, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54105, 18.71790, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54100, 18.71785, 0.00010, 0.00010, "tree_1"); // 55: fa
 
         addPlantToMap(map, 47.5412, 18.7183, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.54115, 18.71825, 0.00010, 0.00010, "tree_1"); // 20: fa
@@ -230,16 +279,38 @@
         addPlantToMap(map, 47.541454, 18.721459, 0.00010, 0.00010, "tree_1"); // 11 után: fa
         addPlantToMap(map, 47.541404, 18.721559, 0.00010, 0.00010, "tree_1"); // 11 után: fa
         addPlantToMap(map, 47.541354, 18.721659, 0.00010, 0.00010, "tree_1"); // 11 után: fa
+        addPlantToMap(map, 47.54184, 18.72045, 0.00010, 0.00015, "bush_2"); // kereszteződés bokor
+        addPlantToMap(map, 47.54162, 18.721059, 0.00010, 0.00010, "tree_1"); // 11 után út mellett: fa
+        addPlantToMap(map, 47.54157, 18.721159, 0.00010, 0.00010, "tree_1"); // 11 után út mellett: fa
+        addPlantToMap(map, 47.54152, 18.721259, 0.00010, 0.00010, "tree_1"); // 11 után út mellett: fa
         addPlantToMap(map, 47.542200, 18.720501, 0.00015, 0.00015, "tree_1"); // tápos: fa
         addPlantToMap(map, 47.542120, 18.720441, 0.00015, 0.00015, "tree_1"); // tápos: fa
         addPlantToMap(map, 47.542030, 18.720381, 0.00015, 0.00015, "tree_1"); // tápos: fa
         addPlantToMap(map, 47.541950, 18.720321, 0.00015, 0.00015, "tree_1"); // tápos: fa
+
+        addPlantToMap(map, 47.54249, 18.71945, 0.00010, 0.00010, "bush_1"); // 31 bokor
+        addPlantToMap(map, 47.54247, 18.71944, 0.00010, 0.00010, "bush_1"); // 31 bokor
+        addPlantToMap(map, 47.54245, 18.71943, 0.00010, 0.00010, "bush_1"); // 31 bokor
+        addPlantToMap(map, 47.54243, 18.71942, 0.00010, 0.00010, "bush_1"); // 31 bokor
+
+        addPlantToMap(map, 47.541950, 18.720321, 0.00015, 0.00015, "tree_1"); // 57: fa
+        addPlantToMap(map, 47.541025, 18.71730, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.541005, 18.71735, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540985, 18.71740, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540965, 18.71745, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540945, 18.71750, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540925, 18.71755, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540905, 18.71760, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540885, 18.71765, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540865, 18.71770, 0.00010, 0.00010, "bush_1"); // 57 bokor
+        addPlantToMap(map, 47.540845, 18.71775, 0.00010, 0.00010, "bush_1"); // 57 bokor
+
         addPlantToMap(map, 47.54055, 18.71768, 0.00008, 0.00008, "tree_1"); // 30: fa
         addPlantToMap(map, 47.54050, 18.71764, 0.00008, 0.00008, "tree_1"); // 30: fa
         addPlantToMap(map, 47.54045, 18.71760, 0.00008, 0.00008, "tree_1"); // 30: fa
         addPlantToMap(map, 47.54031, 18.71690, 0.00008, 0.00008, "tree_1"); // 67: fa
         addPlantToMap(map, 47.54028, 18.71695, 0.00008, 0.00008, "tree_1"); // 67: fa
-        addPlantToMap(map, 47.54024, 18.71722, 0.00008, 0.00008, "tree_1"); // 67: fa
+        addPlantToMap(map, 47.54024, 18.71722, 0.00008, 0.00008, "bush_1"); // 67: fa
         addPlantToMap(map, 47.53940, 18.7166, 0.00008, 0.00008, "tree_1"); // 79: fa
         addPlantToMap(map, 47.53938, 18.71655, 0.00008, 0.00008, "tree_1"); // 79: fa
         addPlantToMap(map, 47.53936, 18.71650, 0.00008, 0.00008, "tree_1"); // 79: fa
@@ -250,6 +321,10 @@
         addPlantToMap(map, 47.53895, 18.71590, 0.00011, 0.00011, "tree_1"); // kanyar: fa
         addPlantToMap(map, 47.53894, 18.71596, 0.00011, 0.00011, "tree_1"); // kanyar: fa
         addPlantToMap(map, 47.53893, 18.71600, 0.00011, 0.00011, "tree_1"); // kanyar: fa
+        addPlantToMap(map, 47.53912, 18.71615, 0.00010, 0.00010, "bush_2"); // 52 előtt: fa
+        addPlantToMap(map, 47.53905, 18.71605, 0.00006, 0.00006, "tree_1"); // kanyar: fa
+        addPlantToMap(map, 47.53925, 18.71643, 0.00010, 0.00010, "bush_2"); // 81 előtt: fa
+        addPlantToMap(map, 47.53924, 18.71639, 0.00007, 0.00006, "bush_1"); // 81 előtt: fa
 	}
 
     function addPlantToMap(map, latitude, longitude, width, height, plantImage) {
