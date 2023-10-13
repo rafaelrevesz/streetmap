@@ -17,10 +17,24 @@
 	  houses.push(new House("2/i/f", 47.54165800387914, 18.719859748012023, 0.00035, 0.00035));
       houses.push(new House("2/i/d", 47.54145800387914, 18.719709748012023, 0.00035, 0.00035));
 	  houses.push(new House("4", 47.54195800387914, 18.719159748012023, 0.0004, 0.0004));
+	  houses.push(new House("5_b", 47.54206, 18.72294, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54188, 18.72285, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54170, 18.72276, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54152, 18.72267, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54134, 18.72258, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54116, 18.72249, 0.00026, 0.00026));
+	  houses.push(new House("5_b", 47.54098, 18.72240, 0.00026, 0.00026));
+
+	  houses.push(new House("5_a", 47.54194, 18.72322, 0.00026, 0.00026));
+	  houses.push(new House("5_a", 47.54176, 18.72313, 0.00026, 0.00026));
+	  houses.push(new House("5_a", 47.54158, 18.72304, 0.00026, 0.00026));
+	  houses.push(new House("5_a", 47.54126, 18.72286, 0.00026, 0.00026));
+	  houses.push(new House("5_a", 47.54108, 18.72277, 0.00026, 0.00026));
+	  houses.push(new House("5_a", 47.54090, 18.72268, 0.00026, 0.00026));
+	  houses.push(new House("7/a", 47.54104, 18.7221, 0.0004, 0.0004));
+	  //houses.push(new House("7/b", 47.5413, 18.72220, 0.0004, 0.0004));
       houses.push(new House("0/", 47.54184, 18.71885, 0.00025, 0.00025)); // 8
-	  houses.push(new House("9/a", 47.54104, 18.7221, 0.0004, 0.0004));
-	  houses.push(new House("9/b", 47.5413, 18.72235, 0.0004, 0.0004));
-	  houses.push(new House("9/c", 47.54112, 18.7219, 0.0004, 0.0004));
+	  houses.push(new House("9", 47.54112, 18.7219, 0.0004, 0.0004));
 	  houses.push(new House("11/a", 47.541204, 18.721709, 0.00035, 0.00035));
 	  houses.push(new House("11/b", 47.541353, 18.721934, 0.00035, 0.00035));
 	  houses.push(new House("12", 47.54152, 18.71862, 0.00035, 0.00035));
@@ -51,7 +65,8 @@
 	  houses.push(new House("0/", 47.541285, 18.71798, 0.00025, 0.00025)); // 51
 	  houses.push(new House("0/", 47.53880, 18.7162, 0.00025, 0.00025)); // 52
 	  houses.push(new House("0/", 47.541150, 18.71788, 0.00025, 0.00025)); // 53
-	  houses.push(new House("0/", 47.541090, 18.71766, 0.00025, 0.00025)); // 55
+	  houses.push(new House("55", 47.54102, 18.71766, 0.00035, 0.00035));
+	  houses.push(new House("55/", 47.54096, 18.71782, 0.00020, 0.00020));
 	  houses.push(new House("0/", 47.541025, 18.71730, 0.00025, 0.00025)); // 57
 	  houses.push(new House("61", 47.54054000387914, 18.71728, 0.0004, 0.0004));
 	  houses.push(new House("65", 47.54030000387914, 18.71715, 0.00033, 0.00033));
@@ -110,6 +125,9 @@
 	  numbers.push(new HouseNumber("41", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("43", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("45", 47.54192, 18.71839));
+
+	  numbers.push(new HouseNumber("55", 47.54126, 18.7178));
+
 	  numbers.push(new HouseNumber("61", 47.54084, 18.71748));
 	  numbers.push(new HouseNumber("65", 47.54053, 18.7173));
 	  numbers.push(new HouseNumber("67", 47.540445, 18.71713));
@@ -277,8 +295,10 @@
         addPlantToMap(map, 47.54127, 18.7185, 0.00006, 0.00012, "bush_1"); // 14: garázs melletti bokor
 
         addPlantToMap(map, 47.54110, 18.71800, 0.00010, 0.00010, "tree_1"); // 55: fa
-        addPlantToMap(map, 47.54105, 18.71790, 0.00010, 0.00010, "tree_1"); // 55: fa
-        addPlantToMap(map, 47.54100, 18.71785, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54112, 18.71790, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54111, 18.71785, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54109, 18.71773, 0.00010, 0.00010, "tree_1"); // 55: fa
+        addPlantToMap(map, 47.54111, 18.71765, 0.00010, 0.00010, "tree_1"); // 55: fa
 
         addPlantToMap(map, 47.5412, 18.7183, 0.00010, 0.00010, "tree_1"); // 20: fa
         addPlantToMap(map, 47.54115, 18.71825, 0.00010, 0.00010, "tree_1"); // 20: fa

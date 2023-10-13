@@ -9,4 +9,8 @@ function setEvents(eventMap) {
   eventMap.set("39", new Event("39", "Zomb-Iv&oacute;", Icons.Zombie));
   eventMap.set("61", new Event("61", "Pumpkin house", Icons.Pumpkin));
   eventMap.set("75", new Event("75", "Fekete macska", Icons.Cat));
+  eventMap.set("55", new Event("55", "R&eacute;mRom", Icons.Spider));
+  eventMap.set("85", new Event("85", "Pocakos p&oacute;k pagoda", Icons.Spider));
+  eventMap.set("79", new Event("79", "R&eacute;mecsk&eacute;k kicsiny h&aacute;zik&oacute;ja", Icons.Witch));
+  eventMap.set("2/d/a", new Event("2/d/a", null, null));
 }
