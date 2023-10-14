@@ -12,5 +12,5 @@ function setEvents(eventMap) {
   eventMap.set("55", new Event("55", "R&eacute;mRom", Icons.Spider));
   eventMap.set("85", new Event("85", "Pocakos p&oacute;k pagoda", Icons.Spider));
   eventMap.set("79", new Event("79", "R&eacute;mecsk&eacute;k kicsiny h&aacute;zik&oacute;ja", Icons.Witch));
-  eventMap.set("2/d/a", new Event("2/d/a", null, null));
+  eventMap.set("2/d/b", new Event("2/d/b", null, null));
 }
