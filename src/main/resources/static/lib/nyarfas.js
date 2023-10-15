@@ -44,7 +44,7 @@
 	  houses.push(new House("0/", 47.54086, 18.71805, 0.00025, 0.00025)); // 22
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 0.00042, 0.00042));
 	  houses.push(new House("25", 47.54199, 18.71995, 0.00047, 0.00047));
-	  houses.push(new House("0/", 47.54059, 18.71782, 0.00025, 0.00025)); // 26
+	  houses.push(new House("26", 47.54045, 18.71782, 0.00045, 0.00045)); // 26
 	  houses.push(new House("29", 47.54223, 18.71945, 0.00035, 0.00035));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 0.0004, 0.0004));
 	  houses.push(new House("31", 47.54225, 18.7192, 0.00045, 0.00045));
@@ -98,14 +98,12 @@
       numbers.push(new HouseNumber("2/i/d", 47.54173, 18.71993));
 	  numbers.push(new HouseNumber("4", 47.54224, 18.7194));
 	  numbers.push(new HouseNumber("8", 47.542147, 18.71847));
-
 	  numbers.push(new HouseNumber("7/1", 47.541255, 18.72222));
 	  numbers.push(new HouseNumber("7/2", 47.54131, 18.72229));
 	  numbers.push(new HouseNumber("7/3", 47.54137, 18.72238));
 	  numbers.push(new HouseNumber("9/1", 47.541335, 18.72202));
 	  numbers.push(new HouseNumber("9/2", 47.541395, 18.72210));
 	  numbers.push(new HouseNumber("9/3", 47.54145, 18.72218));
-
 	  numbers.push(new HouseNumber("9/a", 47.54135, 18.72235));
 	  numbers.push(new HouseNumber("9/b", 47.5416, 18.72258));
 	  numbers.push(new HouseNumber("9/c", 47.54142, 18.72213));
@@ -116,6 +114,7 @@
 	  numbers.push(new HouseNumber("20", 47.54122800387914, 18.718459748012023));
 	  numbers.push(new HouseNumber("24", 47.54089800387914, 18.718109748012023));
 	  numbers.push(new HouseNumber("25", 47.54234  , 18.72007));
+	  numbers.push(new HouseNumber("26", 47.54075, 18.7180));
 	  numbers.push(new HouseNumber("29", 47.542495, 18.719575));
 	  numbers.push(new HouseNumber("30", 47.540545 , 18.71793));
 	  numbers.push(new HouseNumber("31", 47.542595, 18.71937));
@@ -125,9 +124,7 @@
 	  numbers.push(new HouseNumber("41", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("43", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("45", 47.54192, 18.71839));
-
 	  numbers.push(new HouseNumber("55", 47.54126, 18.7178));
-
 	  numbers.push(new HouseNumber("61", 47.54084, 18.71748));
 	  numbers.push(new HouseNumber("65", 47.54053, 18.7173));
 	  numbers.push(new HouseNumber("67", 47.540445, 18.71713));
