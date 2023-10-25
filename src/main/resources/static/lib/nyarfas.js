@@ -41,7 +41,7 @@
 	  houses.push(new House("14", 47.5413, 18.7185, 0.00045, 0.00045));
 	  houses.push(new House("14/", 47.5412, 18.7185, 0.0003, 0.0003));
 	  houses.push(new House("20", 47.54090800387914, 18.7183, 0.00042, 0.00042));
-	  houses.push(new House("0/", 47.54086, 18.71805, 0.00025, 0.00025)); // 22
+	  houses.push(new House("22", 47.54081, 18.71805, 0.00034, 0.00034));
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 0.00042, 0.00042));
 	  houses.push(new House("25", 47.54199, 18.71995, 0.00047, 0.00047));
 	  houses.push(new House("26", 47.54045, 18.71782, 0.00045, 0.00045)); // 26
@@ -53,7 +53,7 @@
 	  houses.push(new House("37", 47.54217, 18.71870, 0.00035, 0.00035));
 	  houses.push(new House("0/", 47.53976, 18.71725, 0.00025, 0.00025)); // 38
 	  houses.push(new House("39", 47.54195800387914, 18.718559748012023, 0.0004, 0.0004));
-	  houses.push(new House("0/", 47.53961, 18.71714, 0.00025, 0.00025)); // 40
+	  houses.push(new House("40", 47.53962, 18.71711, 0.00025, 0.00025));
 	  houses.push(new House("41", 47.541885, 18.7184, 0.00035, 0.00035));
 	  houses.push(new House("0/", 47.53949, 18.71703, 0.00025, 0.00025)); // 42
       houses.push(new House("0/", 47.54182, 18.71839, 0.00025, 0.00025)); // 43
@@ -61,7 +61,7 @@
 	  houses.push(new House("45", 47.54163800387914, 18.71825, 0.0004, 0.0004));
 	  houses.push(new House("0/", 47.541555, 18.71817, 0.00025, 0.00025)); // 47
 	  houses.push(new House("0/", 47.541420, 18.71808, 0.00025, 0.00025)); // 49
-	  houses.push(new House("0/", 47.53895, 18.71645, 0.00025, 0.00025)); // 50
+	  houses.push(new House("50", 47.53895, 18.71645, 0.00027, 0.00027));
 	  houses.push(new House("0/", 47.541285, 18.71798, 0.00025, 0.00025)); // 51
 	  houses.push(new House("0/", 47.53880, 18.7162, 0.00025, 0.00025)); // 52
 	  houses.push(new House("0/", 47.541150, 18.71788, 0.00025, 0.00025)); // 53
@@ -81,6 +81,7 @@
 
 	function getHouseNumbers() {
 	  var numbers = new Array();
+	  numbers.push(new HouseNumber("5", 47.54097, 18.722605));
 	  numbers.push(new HouseNumber("2/c", 47.5410858003, 18.722058));
 	  numbers.push(new HouseNumber("2/d/a", 47.54123, 18.721779748012023));
 	  numbers.push(new HouseNumber("2/d/b", 47.541080800387914, 18.721479748012023));
@@ -121,6 +122,7 @@
 	  numbers.push(new HouseNumber("32", 47.54041, 18.7177));
 	  numbers.push(new HouseNumber("37", 47.54244, 18.71886));
 	  numbers.push(new HouseNumber("39", 47.54227, 18.718729748012023));
+	  numbers.push(new HouseNumber("40", 47.539808, 18.71723));
 	  numbers.push(new HouseNumber("41", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("43", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("45", 47.54192, 18.71839));
