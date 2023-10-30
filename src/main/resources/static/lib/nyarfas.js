@@ -8,8 +8,8 @@
 	  houses.push(new House("2/e/2", 47.540950800387914, 18.721029748012023, 0.00035, 0.00035));
 	  houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 0.00036, 0.00036));
 	  houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 0.00036, 0.00036));
-	  houses.push(new House("2/g/1", 47.541355800387914, 18.720679748012023, 0.00036, 0.00036));
-	  houses.push(new House("2/g/2", 47.541210800387914, 18.720429748012023, 0.00036, 0.00036));
+	  houses.push(new House("2/g/a", 47.541355800387914, 18.720679748012023, 0.00036, 0.00036));
+	  houses.push(new House("2/g/b", 47.541210800387914, 18.720429748012023, 0.00036, 0.00036));
 	  houses.push(new House("592/18", 47.541455800387914, 18.720279748012023, 0.0004, 0.0004));
 	  houses.push(new House("2/i/a", 47.54175800387914, 18.719559748012023, 0.00035, 0.00035));
 	  houses.push(new House("2/i/b", 47.54160800387914, 18.719359748012023, 0.00035, 0.00035));
@@ -43,7 +43,7 @@
 	  houses.push(new House("20", 47.54090800387914, 18.7183, 0.00042, 0.00042));
 	  houses.push(new House("22", 47.54081, 18.71805, 0.00034, 0.00034));
 	  houses.push(new House("24", 47.54058800387914, 18.7179, 0.00042, 0.00042));
-	  houses.push(new House("25", 47.54199, 18.71995, 0.00047, 0.00047));
+	  houses.push(new House("25", 47.54195, 18.71995, 0.00047, 0.00047));
 	  houses.push(new House("26", 47.54045, 18.71782, 0.00045, 0.00045)); // 26
 	  houses.push(new House("29", 47.54223, 18.71945, 0.00035, 0.00035));
 	  houses.push(new House("30", 47.54026800387914, 18.71768, 0.0004, 0.0004));
@@ -87,10 +87,10 @@
 	  numbers.push(new HouseNumber("2/d/b", 47.541080800387914, 18.721479748012023));
 	  numbers.push(new HouseNumber("2/e/1", 47.541365800387914, 18.721479748012023));
 	  numbers.push(new HouseNumber("2/e/2", 47.54121, 18.721179748012023));
-	  numbers.push(new HouseNumber("2/f/1", 47.541495800387914, 18.721179748012023));
-	  numbers.push(new HouseNumber("2/f/2", 47.541350800387914, 18.720879748012023));
-	  numbers.push(new HouseNumber("2/g/1", 47.541625800387914, 18.720879748012023));
-	  numbers.push(new HouseNumber("2/g/2", 47.541480800387914, 18.720579748012023));
+	  numbers.push(new HouseNumber("2/f/a", 47.541495800387914, 18.721179748012023));
+	  numbers.push(new HouseNumber("2/f/b", 47.541350800387914, 18.720879748012023));
+	  numbers.push(new HouseNumber("2/g/a", 47.541625800387914, 18.720879748012023));
+	  numbers.push(new HouseNumber("2/g/b", 47.541480800387914, 18.720579748012023));
 	  numbers.push(new HouseNumber("592/18", 47.541725800387914, 18.720479748012023));
 	  numbers.push(new HouseNumber("2/i/a", 47.54202, 18.7198));
 	  numbers.push(new HouseNumber("2/i/b", 47.54187, 18.7196));
@@ -114,7 +114,7 @@
 	  numbers.push(new HouseNumber("14", 47.54157, 18.7186));
 	  numbers.push(new HouseNumber("20", 47.54122800387914, 18.718459748012023));
 	  numbers.push(new HouseNumber("24", 47.54089800387914, 18.718109748012023));
-	  numbers.push(new HouseNumber("25", 47.54234  , 18.72007));
+	  numbers.push(new HouseNumber("25", 47.54230, 18.72007));
 	  numbers.push(new HouseNumber("26", 47.54075, 18.7180));
 	  numbers.push(new HouseNumber("29", 47.542495, 18.719575));
 	  numbers.push(new HouseNumber("30", 47.540545 , 18.71793));

@@ -20,9 +20,17 @@ function setEvents(eventMap) {
   eventMap.set("31", new Event("31", "Nyanya tanya", Icons.Witch));
   eventMap.set("75", new Event("75", "Czikora Boszorka Boroz&oacute;ja", Icons.Witch));
   eventMap.set("40", new Event("40", "Szellemes Negyvenes", Icons.Ghost));
-  eventMap.set("5", new Event("5", null, null));
+  eventMap.set("5", new Event("5", "T&ouml;kmagok csokigy&aacute;ra", Icons.Pumpkin));
   eventMap.set("41", new Event("41", "Kaporlaki", Icons.Bat));
   eventMap.set("11/a", new Event("11/a", "Cirmos-lak", Icons.Cat));
   eventMap.set("24", new Event("24", "F&eacute;lT&ouml;k, ugyi?", Icons.Pumpkin));
+  eventMap.set("2/c", new Event("2/c", "P&oacute;klak", Icons.Spider));
+  eventMap.set("14", new Event("14", null, null));
+  eventMap.set("2/f/a", new Event("2/f/a", "Veszedelmes T&ouml;kf&eacute;szek", Icons.Pumpkin));
+  eventMap.set("2/f/b", new Event("2/f/b", "Csokigy&#369;jT&Ouml;K udvara", Icons.Pumpkin));
+  eventMap.set("67", new Event("67", null, null));
+  eventMap.set("9/1", new Event("9/1", null, null));
+  eventMap.set("2/d/a", new Event("2/d/a", null, null));
+  eventMap.set("2/g/a", new Event("2/g/a", null, null));
   eventMap.set("20", new Event("20", "Ahkmenrah f&aacute;ra&oacute; kript&aacute;ja", Icons.Rip));
 }

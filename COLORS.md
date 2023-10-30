@@ -38,3 +38,7 @@ zöld: 75B943
 # Betütípus
 
 Házszám: Maiandra DG, 16-os méret
+
+# Karakter kódok
+
+https://psdtowp.net/html-codes-special-characters.html
