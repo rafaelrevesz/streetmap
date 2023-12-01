@@ -1,1 +1,1 @@
-var serverUrl = "http://localhost:81";
+var serverUrl = "http://www.nyarfas.hu";

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="170.000000pt" height="110.000000pt" viewBox="0 0 170.000000 110.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+
+    <path d="M 165 56 L 83 77 L 115 31 L 165 56
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 83 77 L 115 31 L 90 15 L 60 53 L 83 77
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 60 53 L 86 18 L 76 9 L 51 52 L 60 53
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 76 9 L 51 52 L 19 16 L 76 9
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+</svg>

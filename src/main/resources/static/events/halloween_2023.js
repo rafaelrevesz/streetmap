@@ -1,6 +1,5 @@
 
 function setEvents(eventMap) {
-  eventMap.set("7/2", new Event("7/2", null, null));
   eventMap.set("37", new Event("37", "V&eacute;r-est", Icons.Bat));
   eventMap.set("61", new Event("61", "Pumpkin house", Icons.Pumpkin));
   eventMap.set("9/3", new Event("9/3", null, null));

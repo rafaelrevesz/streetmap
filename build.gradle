@@ -21,14 +21,14 @@ test {
 tasks.register('targetHome') {
     doLast {
         println "Preparing for home"
-        new File(projectDir, "/src/main/resources/static/lib/config.js").text = "var serverUrl = \"http://192.168.1.67:81/\";"
+        new File(projectDir, "/src/main/resources/static/lib/config.js").text = "var serverUrl = \"http://www.nyarfas.hu\";"
     }
 }
 
 tasks.register('targetAws') {
     doLast {
         println "Preparing for AWS"
-        new File(projectDir, "/src/main/resources/static/lib/config.js").text = "var serverUrl = \"https://dyf10a0stk4mf.cloudfront.net/\";"
+        new File(projectDir, "/src/main/resources/static/lib/config.js").text = "var serverUrl = \"https://dyf10a0stk4mf.cloudfront.net\";"
     }
 }
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220.000000pt" height="140.000000pt" viewBox="0 0 220.000000 140.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 176 57 L 123 42 L 115 90 L 176 57" stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 176 57 L 123 42 L 55 10 L 75 12 L 176 57" stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 123 42 L 115 90 L 71 67 L 9 32 L 55 10 L 123 42" stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 71 67 L 54 72 L 39 33 L 67 25 L 71 67" stroke-width="3" stroke="#99D9EA" fill="white"/>
+
+    <path d="M 54 71 L 54 113 L 15 89 L 15 50 L 39 34 L 54 71" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+
+
+    <line x1="39" y1="34" x2="54" y2="71" stroke-width="3" stroke="#99D9EA"/>
+    <line x1="39" y1="34" x2="15" y2="50" stroke-width="3" stroke="#99D9EA"/>
+
+
+</svg>
