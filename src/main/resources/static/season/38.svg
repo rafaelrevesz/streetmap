@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220.000000pt" height="180.000000pt" viewBox="0 0 220.000000 180.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 67 49 L 94 18 L 181 68 L 149 128 L 131 128 L 106 108 L 108 36 L 67 49
+             " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 64 127 L 36 60 L 108 36 L 106 108 L 64 127
+             " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <line x1="36" y1="60" x2="6" y2="78" stroke-width="3" stroke="#99D9EA"/>
+    <line x1="181" y1="68" x2="213" y2="92" stroke-width="3" stroke="#99D9EA"/>
+
+    <path d="M 131 27 L 141 32 L 147 29 L 137 23 L 131 27
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+
+    <path d="M 69 69 L 77 85 L 86 81 L 80 65 L 69 69
+         " stroke-width="3" stroke="#99D9EA" fill="#B8D1E6"/>
+    <path d="M 87 63 L 93 80 L 101 76 L 96 59 L 87 63
+         " stroke-width="3" stroke="#99D9EA" fill="#B8D1E6"/>
+
+    <path d="M 120 65 L 120 79 L 141 92 L 141 73 L 120 65
+         " stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <line x1="130" y1="69" x2="130" y2="85" stroke-width="3" stroke="#765641"/>
+    <path d="M 141 92 L 141 73 L 151 70 L 141 92
+         " stroke-width="3" stroke="#765641" fill="#B97A57"/>
+    <path d="M 117 63 L 129 56 L 151 70 L 138 75 L 117 63
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+
+
+</svg>

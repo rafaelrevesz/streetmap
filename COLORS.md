@@ -13,6 +13,7 @@ Szürke tető: 7F7F7F
 Vajszínű fal: EAD7AF
 Szürke fal: C3C3C3
 Piros fal: F8A284
+Szürke lábazat: AAAAAA
 
 Ablaküveg: B8D1E6
 
@@ -37,7 +38,7 @@ zöld: 75B943
 
 # Betütípus
 
-Házszám: Maiandra DG, 16-os méret
+Házszám: Maiandra DG, 16-os méret (nem bold)
 
 # Karakter kódok
 

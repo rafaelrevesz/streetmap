@@ -17,7 +17,9 @@ function setEvents(eventMap) {
   if (date >= 12) eventMap.set("38", new Event("38", "december 12.", Icons.None));
   if (date >= 16) eventMap.set("75", new Event("75", "december 16.", Icons.None));
   if (date >= 16) eventMap.set("41", new Event("41", "december 16.", Icons.None));
+  if (date >= 17) eventMap.set("52", new Event("52", "december 17.", Icons.None));
   if (date >= 20) eventMap.set("51", new Event("51", "december 20.", Icons.None));
   if (date >= 21) eventMap.set("44", new Event("44", "december 21.", Icons.None));
   if (date >= 22) eventMap.set("61", new Event("61", "december 22.", Icons.None));
+  if (date >= 24) eventMap.set("40", new Event("40", "december 24.", Icons.None));
 }
