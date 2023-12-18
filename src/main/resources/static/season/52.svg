@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="230.000000pt" height="150.000000pt" viewBox="0 0 230.000000 150.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 156 106 L 190 46 L 125 21 L 125 62 L 115 83 L 156 106
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <path d="M 125 62 L 125 21 L 110 16 L 67 25 L 90 74 L 102 70 L 98 60 L 93 60 L 93 41 L 114 54 L 108 56 L 116 66 L 125 62
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <line x1="190" y1="46" x2="224" y2="80" stroke-width="3" stroke="#99D9EA"/>
+    <path d="M 50 41 L 67 25 L 110 16 L 79 4 L 38 44 L 50 52
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <line x1="67" y1="25" x2="46" y2="44" stroke-width="3" stroke="#99D9EA"/>
+
+
+    <path d="M 50 67 L 24 76 L 4 56 L 38 44 L 50 52
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+
+    <path d="M 54 61 L 45 64 L 71 81 L 81 78 L 54 61
+         " stroke-width="3" stroke="#765641" fill="white"/>
+
+    <line x1="45" y1="64" x2="45" y2="53" stroke-width="3" stroke="#765641"/>
+    <line x1="71" y1="81" x2="71" y2="68" stroke-width="3" stroke="#765641"/>
+    <line x1="45" y1="53" x2="71" y2="68" stroke-width="3" stroke="#765641"/>
+    <line x1="81" y1="66" x2="71" y2="68" stroke-width="3" stroke="#765641"/>
+    <line x1="45" y1="53" x2="55" y2="50" stroke-width="3" stroke="#765641"/>
+
+    <path d="M 92 59 L 92 41 L 100 46 L 92 59
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+
+    <path d="M 133 80 L 133 65 L 145 69 L 145 85 L 133 80
+         " stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 146 85 L 146 69 L 157 65 L 146 85
+         " stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 131 64 L 146 69 L 138 58 L 131 64
+         " stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 138 58 L 152 52 L 159 65 L 146 69 L 138 58
+         " stroke-width="3" stroke="#99D9EA" fill="white"/>
+    <line x1="139" y1="57" x2="131" y2="64" stroke-width="3" stroke="#99D9EA"/>
+
+</svg>
