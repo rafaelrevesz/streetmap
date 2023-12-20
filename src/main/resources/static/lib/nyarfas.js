@@ -58,7 +58,7 @@
 	  if (date >= 16) houses.push(new House("41", 47.541885, 18.7184, 0.00035, 0.00035));
 	  if (date >= 24) houses.push(new House("0/", 47.53949, 18.71703, 0.00025, 0.00025)); // 42
       if (date >= 24) houses.push(new House("0/", 47.54182, 18.71839, 0.00025, 0.00025)); // 43
-	  if (date >= 21) houses.push(new House("0/", 47.53936, 18.71692, 0.00025, 0.00025)); // 44
+	  if (date >= 21) houses.push(new House("44", 47.53929, 18.71682, 0.00036, 0.00036));
 	  if (date >= 4) houses.push(new House("45", 47.54163800387914, 18.71825, 0.0004, 0.0004));
 	  if (date >= 24) houses.push(new House("0/", 47.541555, 18.71817, 0.00025, 0.00025)); // 47
 	  if (date >= 6) houses.push(new House("49", 47.541380, 18.71805, 0.00033, 0.00033));
@@ -127,6 +127,7 @@
 	  numbers.push(new HouseNumber("40", 47.539808, 18.71723));
 	  numbers.push(new HouseNumber("41", 47.542147, 18.71847));
 	  numbers.push(new HouseNumber("43", 47.542147, 18.71847));
+	  numbers.push(new HouseNumber("44", 47.539545, 18.71704));
 	  numbers.push(new HouseNumber("45", 47.54192, 18.71839));
 	  numbers.push(new HouseNumber("49", 47.54162, 18.718205));
 	  numbers.push(new HouseNumber("51", 47.54154, 18.71799));
