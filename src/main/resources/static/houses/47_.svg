@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="160.000000pt" height="210.000000pt" viewBox="0 0 160.000000 210.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <line x1="85" y1="152" x2="85" y2="193" stroke-width="3" stroke="#765641"/>
+    <line x1="47" y1="162" x2="47" y2="204" stroke-width="3" stroke="#765641"/>
+    <line x1="6" y1="126" x2="6" y2="165" stroke-width="3" stroke="#765641"/>
+
+    <line x1="84" y1="154" x2="46" y2="162" stroke-width="3" stroke="#765641"/>
+    <line x1="66" y1="159" x2="66" y2="150" stroke-width="3" stroke="#765641"/>
+
+    <path d="M 91 152 L 66 149 L 31 115 L 50 112 L 91 152" stroke-width="3" stroke="#765641" fill="#DA5E53"/>
+    <path d="M 66 149 L 31 115 L 5 126 L 43 164 L 66 149" stroke-width="3" stroke="#765641" fill="#D87254"/>
+</svg>

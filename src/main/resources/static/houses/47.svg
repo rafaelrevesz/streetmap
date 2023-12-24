@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200.000000pt" height="160.000000pt" viewBox="0 0 200.000000 160.000000"
+     preserveAspectRatio="xMidYMid meet">
+
+    <path d="M 193 137 L 193 97 165 68 L 138 115 L 138 154 L 193 137" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 138 115 L 138 154 L 113 129 L 113 91 L 138 115" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 113 129 L 113 91 L 83 98 L 83 138 L 113 129" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+    <path d="M 83 98 L 83 138 L 51 105 L 51 68 L 67 41 L 83 98" stroke-width="3" stroke="#765641" fill="#EAD7AF"/>
+
+    <path d="M 168 81 L 168 93 L 163 94 L 163 82 L 168 81" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 160 118 L 160 132 L 149 135 L 149 121 L 160 118" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 125 112 L 125 125 L 118 119 L 118 105 L 125 112" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 103 104 L 103 116 L 93 119 L 93 105 L 103 104" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 68 57 L 68 69 L 64 66 L 64 54 L 68 57" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 79 99 L 79 117 L 75 114 L 75 96 L 79 99" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+    <path d="M 71 93 L 71 125 L 61 115 L 61 84 L 71 93" stroke-width="3" stroke="#765641" fill="#B8D1E6"/>
+
+    <path d="M 184 140 L 184 112 L 172 115 L 172 144 L 184 140" stroke-width="3" stroke="#765641" fill="#B97A57"/>
+
+    <path d="M 83 138 L 64 146 L 30 114 L 51 105 L 83 138" stroke-width="3" stroke="#765641" fill="#B97A54"/>
+
+    <line x1="64" y1="107" x2="64" y2="146" stroke-width="3" stroke="#765641"/>
+    <line x1="30" y1="76" x2="30" y2="114" stroke-width="3" stroke="#765641"/>
+
+    <path d="M 165 67 L 137 117 L 69 47 L 100 4 L 165 67" stroke-width="3" stroke="#765641" fill="#D87254"/>
+    <path d="M 118 31 L 113 93 L 84 99 L 67 41 L 118 31" stroke-width="3" stroke="#765641" fill="#D87254"/>
+    <path d="M 52 68 L 83 98 L 64 107 L 30 76 L 52 68" stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+    <path d="M 183 106 L 192 113 L 178 117 L 171 109 L 183 106" stroke-width="3" stroke="#765641" fill="#7F7F7F"/>
+
+</svg>

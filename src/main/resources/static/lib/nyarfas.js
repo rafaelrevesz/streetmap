@@ -34,7 +34,7 @@
 	  if (date >= 24) houses.push(new House("5_a", 47.54090, 18.72268, 0.00026, 0.00026));
 	  if (date >= 24) houses.push(new House("7/a", 47.54104, 18.7221, 0.0004, 0.0004));
 	  // houses.push(new House("7/b", 47.5413, 18.72220, 0.0004, 0.0004));
-      if (date >= 24) houses.push(new House("0/", 47.54184, 18.71885, 0.00025, 0.00025)); // 8
+      if (date >= 24) houses.push(new House("8", 47.54180, 18.7189, 0.00032, 0.00032));
 	  if (date >= 24) houses.push(new House("9", 47.54112, 18.7219, 0.0004, 0.0004));
 	  if (date >= 4) houses.push(new House("11/a", 47.541204, 18.721709, 0.00035, 0.00035));
 	  if (date >= 24) houses.push(new House("11/b", 47.541353, 18.721934, 0.00035, 0.00035));
@@ -57,15 +57,16 @@
 	  if (date >= 24) houses.push(new House("40", 47.53962, 18.71711, 0.00025, 0.00025));
 	  if (date >= 16) houses.push(new House("41", 47.541885, 18.7184, 0.00035, 0.00035));
 	  if (date >= 24) houses.push(new House("0/", 47.53949, 18.71703, 0.00025, 0.00025)); // 42
-      if (date >= 24) houses.push(new House("0/", 47.54182, 18.71839, 0.00025, 0.00025)); // 43
+      if (date >= 24) houses.push(new House("43", 47.541745, 18.71830, 0.00038, 0.00038));
 	  if (date >= 21) houses.push(new House("44", 47.53929, 18.71682, 0.00036, 0.00036));
 	  if (date >= 4) houses.push(new House("45", 47.54163800387914, 18.71825, 0.0004, 0.0004));
-	  if (date >= 24) houses.push(new House("0/", 47.541555, 18.71817, 0.00025, 0.00025)); // 47
+	  if (date >= 24) houses.push(new House("47", 47.541555, 18.71813, 0.00031, 0.00031));
+	  if (date >= 24) houses.push(new House("47/", 47.541555, 18.71830, 0.00020, 0.00020));
 	  if (date >= 6) houses.push(new House("49", 47.541380, 18.71805, 0.00033, 0.00033));
 	  if (date >= 24) houses.push(new House("50", 47.53895, 18.71645, 0.00027, 0.00027));
 	  if (date >= 20) houses.push(new House("51", 47.54124, 18.71786, 0.00037, 0.00037));
 	  if (date >= 17) houses.push(new House("52", 47.53877, 18.71615, 0.00040, 0.00040));
-	  if (date >= 24) houses.push(new House("0/", 47.541150, 18.71788, 0.00025, 0.00025)); // 53
+	  if (date >= 24) houses.push(new House("53", 47.541140, 18.71780, 0.00032, 0.00032));
 	  if (date >= 5) houses.push(new House("55", 47.54102, 18.71766, 0.00035, 0.00035));
 	  if (date >= 5) houses.push(new House("55/", 47.54096, 18.71782, 0.00020, 0.00020));
 	  if (date >= 7) houses.push(new House("57", 47.54098, 18.71730, 0.00029, 0.00029));
@@ -245,6 +246,8 @@
         addPlantToMap(map, 47.542000, 18.719799, 0.00015, 0.00015, "tree_1"); // 2/i: fa
         addPlantToMap(map, 47.541847, 18.720101, 0.00015, 0.00015, "tree_1"); // 2/i: fa
 
+        addPlantToMap(map, 47.54203, 18.71895, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
+
         addPlantToMap(map, 47.54170, 18.72032, 0.00010, 0.00010, "bush_2"); // 592/18 mellett: fa
         addPlantToMap(map, 47.54166, 18.72028, 0.00010, 0.00010, "tree_1"); // 592/18 mellett: fa
         addPlantToMap(map, 47.54162, 18.72024, 0.00010, 0.00010, "tree_1"); // 592/18 mellett: fa
@@ -277,7 +280,6 @@
         addPlantToMap(map, 47.54220, 18.71919, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54217, 18.71909, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54210, 18.71902, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
-        addPlantToMap(map, 47.54203, 18.71895, 0.00015, 0.00015, "tree_1"); // fa a kanyarban
         addPlantToMap(map, 47.54243, 18.7192, 0.00018, 0.00018, "tree_1"); // 31: fa
         addPlantToMap(map, 47.54201, 18.7187, 0.00015, 0.00015, "tree_1"); // 39: fa
         addPlantToMap(map, 47.54201, 18.7196, 0.00015, 0.00015, "tree_1"); // 4: fa
