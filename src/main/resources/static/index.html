@@ -31,10 +31,10 @@
   <script src="events/event.js"></script>
   <script src="icons/icons.js"></script>
   <script src="lib/nyarfas.js"></script>
-  <script src="events/advent_2023.js"></script>
+  <script src="events/halloween_2024.js"></script>
 </head>
 <body>
-<div id="header"><img src="images/advent.jpg"><div id="title"> a Ny&aacute;rf&aacute;s utc&aacute;ban...</div></div>
+<div id="header"><img id="titleImage" src="images/advent.jpg"><div id="title"> a Ny&aacute;rf&aacute;s utc&aacute;ban...</div></div>
 <div id="header_place"></div>
 <div id="map" class="map-container"></div>
 <div id="footer">CeladonSEA, 2023</div>
@@ -65,19 +65,23 @@
     map.setMinZoom(7);
     map.setZoom(18);
     addStreet(map);
-    var houses = getHouses();
-    var events = getEvents();
+    var event = loadEvent();
+    var houses = getHouses(event);
+
+    document.getElementById("titleImage").src = "images/" + event.titleImage;
+
     var houseNumbers = getHouseNumbers();
-    setEvents(events);
-    addPlantsToMapBeforeHouses(map);
+    addPlantsToMapBeforeHouses(map, event);
     houses.forEach((house) => {
       addHouseToMap(map, house);
-      addSeasonToMap(map, house);
-      });
+      if (event.season == "winter") {
+        addSeasonToMap(map, house);
+      }
+    });
     houseNumbers.forEach((houseNumber) => {
-      addHouseNumberAsMarkerToMap(map, houseNumber, events);
+      addHouseNumberAsMarkerToMap(map, houseNumber, event.houseEvents);
       });
-    addPlantsToMap(map);
+    addPlantsToMap(map, event);
 /*]]>*/
 </script>
 </body>
