@@ -9,7 +9,8 @@ function createEvents() {
   eventMap.set("2/d/a", new HouseEvent("2/d/a", null, null, null));
   eventMap.set("2/d/b", new HouseEvent("2/d/b", "Szellemtelep", Icons.Ghost, null));
   eventMap.set("2/h", new HouseEvent("2/h", "Boszorkány tanya", Icons.Witch, null));
-  eventMap.set("2/f/b", new HouseEvent("2/f/b", null, null, null));
+  eventMap.set("2/f/a", new HouseEvent("2/f/a", "Csontház", Icons.Skull, null));
+  eventMap.set("2/f/b", new HouseEvent("2/f/b", "Csontház", Icons.Skull, null));
   eventMap.set("2/i", new HouseEvent("2/i", "PÓKoli lakópark", Icons.Spider, null));
   eventMap.set("5", new HouseEvent("5", "Lufitemető", Icons.Rip, null));
   eventMap.set("7/2", new HouseEvent("7/2", null, null, null));
@@ -19,6 +20,7 @@ function createEvents() {
   eventMap.set("9/3", new HouseEvent("9/3", null, null, null));
   eventMap.set("11/b", new HouseEvent("11/b", null, null, null));
   eventMap.set("12", new HouseEvent("12", null, null, null));
+  eventMap.set("14", new HouseEvent("14", null, null, null));
   eventMap.set("20", new HouseEvent("20", "Vudu varázslók", Icons.Skull, null));
   eventMap.set("24", new HouseEvent("24", "Banya kikötő", Icons.Witch, null));
   eventMap.set("30", new HouseEvent("30", "Póktanya", Icons.Spider, null));
@@ -28,10 +30,9 @@ function createEvents() {
   eventMap.set("39", new HouseEvent("39", "Két banya jósdája", Icons.Witch, null));
   eventMap.set("41", new HouseEvent("41", null, null, null));
   eventMap.set("55", new HouseEvent("55", "RémRom", Icons.Zombie, null));
+  eventMap.set("61", new HouseEvent("61", null, null, null));
   eventMap.set("65", new HouseEvent("65", null, null, null));
-
   eventMap.set("69", new HouseEvent("69", "Póktanya", Icons.Spider, null));
-
   eventMap.set("79", new HouseEvent("79", null, null, null));
   eventMap.set("85", new HouseEvent("85", 'Kislidérc házikója', Icons.Ghost, null));
   return eventMap;
