@@ -13,6 +13,7 @@ function createEvents() {
   eventMap.set("2/f/b", new HouseEvent("2/f/b", "Csontház", Icons.Skull, null));
   eventMap.set("2/i", new HouseEvent("2/i", "PÓKoli lakópark", Icons.Spider, null));
   eventMap.set("5", new HouseEvent("5", "Lufitemető", Icons.Rip, null));
+  eventMap.set("7/1", new HouseEvent("7/1", "A titokzatos 7. szám", Icons.Pumpkin, null));
   eventMap.set("7/2", new HouseEvent("7/2", null, null, null));
   eventMap.set("7/3", new HouseEvent("7/3", null, null, null));
   eventMap.set("9/1", new HouseEvent("9/1", null, null, null));
@@ -32,6 +33,7 @@ function createEvents() {
   eventMap.set("55", new HouseEvent("55", "RémRom", Icons.Zombie, null));
   eventMap.set("61", new HouseEvent("61", null, null, null));
   eventMap.set("65", new HouseEvent("65", null, null, null));
+  eventMap.set("67", new HouseEvent("67", null, null, null));
   eventMap.set("69", new HouseEvent("69", "Póktanya", Icons.Spider, null));
   eventMap.set("79", new HouseEvent("79", null, null, null));
   eventMap.set("85", new HouseEvent("85", 'Kislidérc házikója', Icons.Ghost, null));
