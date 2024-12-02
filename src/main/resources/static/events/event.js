@@ -1,23 +1,29 @@
 
 class Event {
-  constructor(eventName, season, titleImage, houseEvents, continuouslyAppear, dayOfAllDisplays) {
+  constructor(eventName, season, titleImage, houseEvents, continuouslyAppear, dayOfAllDisplays, eventYear, eventMonth) {
     this.houseEvents = houseEvents;
     this.eventName = eventName;
     this.season = season;
     this.titleImage = titleImage;
     this.continuouslyAppear = continuouslyAppear;
     this.dayOfAllDisplays = dayOfAllDisplays;
+    this.eventYear = eventYear;
+    this.eventMonth = eventMonth;
   }
 
   displayHouse(houseNumber) {
     if (!this.continuouslyAppear) {
       return true;
     }
-    var date = new Date().getDate();
-    if (this.houseEvents.get(houseNumber) == null) {
-      return date >= this.dayOfAllDisplays;
+    var date = new Date();
+    if (date.getFullYear() != this.eventYear || (date.getMonth() + 1) != this.eventMonth) {
+      return false;
     }
-    return this.houseEvents.get(houseNumber).dayAppear <= date;
+    var day = date.getDate();
+    if (this.houseEvents.get(houseNumber) == null) {
+      return day >= this.dayOfAllDisplays;
+    }
+    return this.houseEvents.get(houseNumber).dayAppear <= day;
   }
 }
 

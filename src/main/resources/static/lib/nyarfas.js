@@ -6,8 +6,8 @@
 	  if (event.displayHouse("2/d/b")) houses.push(new House("2/d/b", 47.540820800387914, 18.721329748012023, 0.00035, 0.00035));
 	  if (event.displayHouse("2/e/1")) houses.push(new House("2/e/1", 47.541095800387914, 18.721279748012023, 0.00036, 0.00036));
 	  if (event.displayHouse("2/e/2")) houses.push(new House("2/e/2", 47.540950800387914, 18.721029748012023, 0.00035, 0.00035));
-	  if (event.displayHouse("2/f/1")) houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 0.00036, 0.00036));
-	  if (event.displayHouse("2/f/2")) houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 0.00036, 0.00036));
+	  if (event.displayHouse("2/f/a")) houses.push(new House("2/f/1", 47.541225800387914, 18.720979748012023, 0.00036, 0.00036));
+	  if (event.displayHouse("2/f/b")) houses.push(new House("2/f/2", 47.541080800387914, 18.720729748012023, 0.00036, 0.00036));
 	  if (event.displayHouse("2/g/a")) houses.push(new House("2/g/a", 47.541355800387914, 18.720679748012023, 0.00036, 0.00036));
 	  if (event.displayHouse("2/g/b")) houses.push(new House("2/g/b", 47.541210800387914, 18.720429748012023, 0.00036, 0.00036));
 	  if (event.displayHouse("2/h")) houses.push(new House("2/h", 47.541455800387914, 18.720279748012023, 0.0004, 0.0004));
@@ -128,7 +128,7 @@
 	  if (event.displayHouse("39")) numbers.push(new HouseNumber("39", 47.54227, 18.718729748012023));
 	  if (event.displayHouse("40")) numbers.push(new HouseNumber("40", 47.539808, 18.71723));
 	  if (event.displayHouse("41")) numbers.push(new HouseNumber("41", 47.542147, 18.71847));
-	  if (event.displayHouse("43")) numbers.push(new HouseNumber("43", 47.542147, 18.71847));
+	  if (event.displayHouse("43")) numbers.push(new HouseNumber("43", 47.54201, 18.71847));
 	  if (event.displayHouse("44")) numbers.push(new HouseNumber("44", 47.539545, 18.71704));
 	  if (event.displayHouse("45")) numbers.push(new HouseNumber("45", 47.54192, 18.71839));
 	  if (event.displayHouse("49")) numbers.push(new HouseNumber("49", 47.54162, 18.718205));

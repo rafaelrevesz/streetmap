@@ -1,5 +1,5 @@
 function loadEvent() {
-  return new Event("A zsámbéki Nyárfás utca", "winter", "advent.jpg", createEvents(), true, 25);
+  return new Event("A zsámbéki Nyárfás utca", "winter", "advent.jpg", createEvents(), true, 25, 2023, 12);
 }
 
 
