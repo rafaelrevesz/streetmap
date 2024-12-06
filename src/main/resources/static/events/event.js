@@ -15,6 +15,7 @@ class Event {
     if (!this.continuouslyAppear) {
       return true;
     }
+    //var date = new Date(2024, 11, 21);
     var date = new Date();
     if (date.getFullYear() != this.eventYear || (date.getMonth() + 1) != this.eventMonth) {
       return false;
